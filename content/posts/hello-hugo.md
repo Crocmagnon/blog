@@ -1,7 +1,7 @@
 ---
 title: "Hello Hugo"
 date: 2023-05-12T10:14:52+02:00
-draft: true
+draft: false
 # weight: 1
 # aliases: ["/first"]
 tags: []
@@ -41,4 +41,21 @@ editPost:
 
 This is an introduction post using **hugo**, a SSG written in *golang*.
 
+```python
+def hello(name: str = "World") -> str:
+    return f"Hello, {name}"
+
+if __name__ == "__main__":
+    print(hello("Gabriel"))
+```
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, world")
+}
+```
 
