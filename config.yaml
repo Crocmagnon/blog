@@ -18,27 +18,28 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "Gab's Notes"
   description: "My take on tech-related subjects (but not only)."
-  keywords: [blog, tech, golang, python, self-hosting]
+  keywords: [blog, tech, docker, golang, python, self-hosting]
   author: "Gabriel Augendre"
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  #images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
+  ShowShareButtons: false
+  ShowPostNavLinks: false
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
-  disableScrollToTop: false
+  disableScrollToTop: true
   comments: false
   hidemeta: false
   hideSummary: false
+  hideFooter: true
   showtoc: false
   tocopen: false
 
@@ -56,31 +57,21 @@ params:
     icon: /apple-touch-icon.png
     iconHeight: 35
 
-  # profile-mode
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
-
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Gab’s Notes"
+    Content: |-
+      My take on tech related subjects (but not only)
 
   socialIcons:
-    - name: stackoverflow
-      url: "https://stackoverflow.com/users/2758732/gabriel"
+    - name: email
+      url: "mailto:ga-blog@augendre.info"
     - name: github
       url: "https://github.com/Crocmagnon"
+    - name: cv
+      url: "https://cv-gabriel.augendre.info"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/users/2758732/gabriel"
     - name: mastodon
       url: "https://fosstodon.org/@Crocmagnon"
 
@@ -106,10 +97,18 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 10
     - identifier: tags
       name: tags
       url: /tags/
       weight: 20
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
@@ -121,4 +120,9 @@ markup:
     # lineNos: true
     # style: monokai
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
 
