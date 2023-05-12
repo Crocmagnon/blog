@@ -4,7 +4,7 @@ date: 2023-05-12T10:14:52+02:00
 draft: false
 # weight: 1
 # aliases: ["/first"]
-tags: []
+tags: ["initial", "hello"]
 
 author: "Gabriel Augendre"
 # author: ["Me", "You"] # multiple authors
@@ -14,7 +14,6 @@ hidemeta: false
 comments: false
 description: "Desc Text."
 canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
 hideSummary: false
