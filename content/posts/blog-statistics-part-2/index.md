@@ -11,7 +11,7 @@ Today, I went another way and configured [GoAccess](http://goaccess.io/) to prov
 !!! info "Update 2020-01-03"
     I now use [my own blog platform](/blog-platform-update-quick-note/) with [Goatcounter](/about-me/#analytics).
 
-[![GoAccess Screenshot](/attachments/8/processed/)](/attachments/8/original/)
+[![GoAccess Screenshot](8.png)](/attachments/8/original/)
 
 #100DaysToOffload No. 14<!--more-->
 

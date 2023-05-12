@@ -6,7 +6,7 @@ aliases: ["/docker-images-layers-and-cache"]
 ---
 In this post, we'll walk through Docker image layers and the caching around them from the point of view of a Docker user. I'll assume you're already familiar with Dockerfiles and Docker concepts in general.
 
-![Docker logo](/attachments/32/processed/)
+![Docker logo](32.png)
 
 ## ✌️ The two axioms of Docker layers
 There are two key concepts to understand, from which everything else is deduced. Let's call them our axioms.

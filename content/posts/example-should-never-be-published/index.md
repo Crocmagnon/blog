@@ -70,7 +70,7 @@ Breaking paragraph
 
 This should be an image:
 
-![Image alt text](/attachments/32/processed/)
+![Image alt text](32.png)
 
 <details>
   <summary>Spoiler alert!</summary>
