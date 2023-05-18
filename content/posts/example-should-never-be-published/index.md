@@ -94,7 +94,7 @@ In this extreme case, the final image weighs nothing more than the binary itself
 
 Link to another section: [link](#python_poetry)
 
-## 🐍 Applying to Python & Poetry {: id="python_poetry" }
+## 🐍 Applying to Python & Poetry 
 ### Install the dependencies
 
 Let's start with a basic Dockerfile with a single stage that will just install this blog's dependencies and run the project.[^blog]

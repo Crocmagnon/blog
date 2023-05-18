@@ -8,7 +8,7 @@ I'm Gabriel, a Go and Python software developer at [OVHcloud](https://www.ovhclo
 
 [![A picture of Gabriel Augendre](39.jpg)](/attachments/40/original/)
 [![His usual avatar for online profiles, the dwarf from a medieval fantasy audio story named "Le Donjon de Naheulbeuk" (French)](41.jpg)](/attachments/41/original/)
-{: .profile }
+
 
 ## Where to find me {#contact}
 

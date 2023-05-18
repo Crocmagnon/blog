@@ -37,7 +37,7 @@ Among them, only poetry ticks all the boxes. pip-tools and pipenv don't have fea
 ### Version constraints
 
 ![Poetry logo](35.svg)
-{: .svg-container }
+
 
 Poetry lets you specify your direct dependencies in a standard file called `pyproject.toml`. You can either edit this file manually or use the `poetry` command line tool.
 

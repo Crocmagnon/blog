@@ -8,7 +8,13 @@ I recently moved to a new apartment and now I have a little closet which contain
 
 For a few weeks, it sat on the floor in this closet since I didn't have any room for it anywhere else. I wasn't satisfied, so I decided to design some small pieces to create a wall mount for the beast.
 
-![Freebox Delta S Server](7.png), preferably free (as in [free software](https://en.wikipedia.org/wiki/Free_software)) and open source.
+![Freebox Delta S Server](7.png)
+
+#100DaysToOffload No. 16<!--more-->
+
+## 3D Computer Assisted Design
+### Finding a software
+I used various CAD software during my studies, mainly SolidWorks and SolidEdge, but these are both expensive and way overkill pieces of software. I had to find a free alternative (as in free beer), preferably free (as in [free software](https://en.wikipedia.org/wiki/Free_software)) and open source.
 
 I first tried [FreeCAD](https://www.freecadweb.org/), which ticks all the boxes. It also has a rich community, a great [documentation](https://wiki.freecadweb.org/) and tutorials. I had a couple of issues (visual glitches, and a crash) which made me look for another CAD software.
 
@@ -21,7 +27,13 @@ Here's what they look like:
 
 ![Bottom piece](14.png)
 
-![Top piece](15.jpeg)](/attachments/23/original/)
+![Top piece](15.jpeg)
+
+The piece looking like a U will be printed twice and will support the modem on the bottom and the S shape will prevent it from tumbling. The holes with two diameters are there to let a screw pass and hide its head. The other holes on the opposite side of the U are there to make room for my screwdriver when mounting them.
+
+You can download them here:
+
+* [U shape (bottom)](/attachments/23/original/)
 * [S shape (top)](/attachments/24/original/)
 
 You can also find them [on Printables](https://www.printables.com/model/171644-support-mural-freebox-delta).

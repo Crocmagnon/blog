@@ -9,7 +9,7 @@ aliases: ["/pi-hole"]
 
 
 ![Pi Hole logo](11.svg)
-{: .svg-container }
+
 
 As I was telling you [before](https://gabnotes.org/raspberry-pi), I own a Raspberry Pi on which I set up a [Pi Hole](https://pi-hole.net/).
 

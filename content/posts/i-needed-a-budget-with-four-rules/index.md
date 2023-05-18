@@ -6,7 +6,13 @@ aliases: ["/i-needed-a-budget-with-four-rules"]
 ---
 In January 2020, I discovered a budget app called You Need A Budget ([YNAB](https://youneedabudget.com/)). I've been using it since then and I'm very happy with it, here's why.
 
-![YNAB Logo](20.svg) brought more visibility and more clarity over what my money could do for me. They have a really nice page on their website that explains everything in detail, you can check it out [here](https://www.youneedabudget.com/the-four-rules/). Here's a quick summary of what these rules mean to me.
+![YNAB Logo](20.svg)
+
+#100DaysToOffload No. 13<!--more-->
+
+At first, I didn't think I needed a budget. After all, I didn't have any "money problems". I could buy what I needed without having to pay attention to every euro and I could also afford some extras sometimes. But I didn't have any plan for my money. It just sat in my saving and checking account.
+
+YNAB's four rules (that you can apply without using the software at all) brought more visibility and more clarity over what my money could do for me. They have a really nice page on their website that explains everything in detail, you can check it out [here](https://www.youneedabudget.com/the-four-rules/). Here's a quick summary of what these rules mean to me.
 
 !!! info "Edit 2021-01-02"
     I recently discovered a free software and open source alternative: [Firefly III](https://www.firefly-iii.org/). I haven't tried it though.
