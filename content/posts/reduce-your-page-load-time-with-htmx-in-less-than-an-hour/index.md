@@ -22,13 +22,13 @@ This app also has a reporting section, where I'm generating graphs using matplot
 
 Initially, the page took about 6 to 7 seconds to fully load. Before that, nothing was displayed on screen.
 
-|   | Before htmx | After htmx |
-|---|-------------|------------|
-|[LCP](https://web.dev/lcp/)| 6 seconds   | ?          |
+|                             | Before htmx | After htmx |
+|-----------------------------|-------------|------------|
+| [LCP](https://web.dev/lcp/) | 6 seconds   | ?          |
 
 Here's what the template looked like:
 
-```jinja hl_lines="32 36 37 38"
+```jinja
 {% extends "common/base.html" %}
 {% load static %}
 {% load i18n %}

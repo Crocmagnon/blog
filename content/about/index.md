@@ -1,16 +1,16 @@
 ---
-title: About me
+title: "About me"
+tags: ['Gabriel Augendre', 'blog', 'homepage']
+date: 2020-05-12T11:29:02+00:00
 ShowReadingTime: false
 ShowBreadCrumbs: false
 ShowPostNavLinks: true
 ShowWordCount: false
 ---
-
 I'm Gabriel, a Go and Python software developer at [OVHcloud](https://www.ovhcloud.com/) (Lyon, France) and [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) enthusiast.
 
-[![A picture of Gabriel Augendre](/attachments/39/processed/)](/attachments/40/original/)
-[![His usual avatar for online profiles, the dwarf from a medieval fantasy audio story named "Le Donjon de Naheulbeuk" (French)](/attachments/41/processed/)](/attachments/41/original/)
-{: .profile }
+![A picture of Gabriel Augendre](39.jpg)
+![His usual avatar for online profiles, the dwarf from a medieval fantasy audio story named "Le Donjon de Naheulbeuk" (French)](41.jpg)
 
 ## Where to find me {#contact}
 
@@ -21,7 +21,3 @@ I'm Gabriel, a Go and Python software developer at [OVHcloud](https://www.ovhclo
 | [GitLab](https://gitlab.com/gaugendre)        |                                                                    |
 
 My resume is available as [a pdf](https://cv-gabriel.augendre.info) (in French) if you want to take a look.
-
-## Analytics
-This website uses GoatCounter, a privacy respecting analytics tool. They are [publicly available](https://gc.gabnotes.org).
-
