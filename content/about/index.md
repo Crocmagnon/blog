@@ -48,3 +48,6 @@ I'm Gabriel, a Go and Python software developer at [OVHcloud](https://www.ovhclo
 | [GitLab](https://gitlab.com/gaugendre)        |                                                                    |
 
 My resume is available as [a pdf](https://cv-gabriel.augendre.info) (in French) if you want to take a look.
+
+## Analytics
+This website uses GoatCounter, a privacy respecting analytics tool. They are [publicly available](https://gc.gabnotes.org).
