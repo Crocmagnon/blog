@@ -27,7 +27,7 @@ Here's what they look like:
 
 ![Bottom piece](14.png)
 
-![Top piece](15.jpeg)
+![Top piece](15.png)
 
 The piece looking like a U will be printed twice and will support the modem on the bottom and the S shape will prevent it from tumbling. The holes with two diameters are there to let a screw pass and hide its head. The other holes on the opposite side of the U are there to make room for my screwdriver when mounting them.
 
