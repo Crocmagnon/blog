@@ -80,7 +80,7 @@ Here's what the template looked like:
 ## Implementation
 Here's how the template looks like with htmx. I've removed the non-relevant parts for brevity.
 
-```jinja hl_lines="2 8 12 17 18 19 20"
+```jinja {hl_lines="2 8 12 17-20"}
 {% extends "common/base.html" %}
 {% load static i18n purchase django_htmx %}
 {# ... #}

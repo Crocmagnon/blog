@@ -48,7 +48,7 @@ This is a warning admonition.
 This is a danger admonition.
 {{< /note >}}
 
-```python hl_lines="1 3"
+```python {hl_lines="1 3"}
 # main.py
 
 def main():

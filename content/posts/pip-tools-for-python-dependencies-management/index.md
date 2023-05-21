@@ -69,7 +69,7 @@ pytest>=7.0
 
 The commands used to compile the three files are:
 
-```{ .shell .large }
+```shell
 pip-compile -q --allow-unsafe --resolver=backtracking --generate-hashes requirements.in
 pip-compile -q --allow-unsafe --resolver=backtracking --strip-extras -o constraints.txt requirements.in
 pip-compile -q --allow-unsafe --resolver=backtracking --generate-hashes requirements-dev.in
@@ -77,7 +77,7 @@ pip-compile -q --allow-unsafe --resolver=backtracking --generate-hashes requirem
 
 This is a lot to remember and I have a terrible memory, so I'm using [invoke](https://www.pyinvoke.org/) to call the commands for me.
 
-```{ .python .large }
+```python
 # tasks.py
 from pathlib import Path
 
@@ -158,7 +158,7 @@ git commit -m "Add new_package"
 
 In order to avoid forgetting to compile my dependencies, I added a few pre-commit hooks to my projects:
 
-```{ .yaml .large }
+```yaml
 repos:
   - repo: https://github.com/jazzband/pip-tools
     rev: 6.12.2

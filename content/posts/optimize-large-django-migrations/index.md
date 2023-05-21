@@ -10,7 +10,7 @@ Today, while working on a project at [ITSF](https://itsf.io), I needed to add a 
 ## 🧒🏻 First try
 So I sat down, thought about it, and here's the migration I first came up with:
 
-```{ .python .large }
+```python
 def forwards(apps, schema_editor):
     Model = apps.get_model('app', 'Model')
     db_alias = schema_editor.connection.alias
@@ -40,7 +40,7 @@ Fortunately, Django comes with batteries included and provides a pagination mech
 
 After re-engineering, here's the updated version which will obviously make many more DB queries but will hopefully not send our RAM to a black hole 😁
 
-```{ .python .large hl_lines="5 6 7" }
+```python {hl_lines="5-7"}
 def forwards(apps, schema_editor):
     Model = apps.get_model('app', 'Model')
     db_alias = schema_editor.connection.alias

@@ -88,7 +88,7 @@ We'll add another stage to this build. First, we will install poetry and the pro
 
 ### Multi-staged dependencies & code
 
-```Dockerfile hl_lines="15 22 24"
+```Dockerfile {hl_lines="15 22 24"}
 # Dockerfile
 ## Build venv
 FROM python:3.8.6-buster AS venv
@@ -136,7 +136,7 @@ Your ops teams should be happier with these lighter images: less attack surface,
 
 For this blog, I use a slightly modified version of what we just saw:
 
-```Dockerfile hl_lines="15 17 21 27 33 34 40 41 42 44 45 46"
+```Dockerfile {hl_lines="15 17 21 27 33 34 40-42 44-46"}
 # Dockerfile
 ## Build venv
 FROM python:3.8.6-buster AS venv

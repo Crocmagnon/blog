@@ -29,14 +29,14 @@ SSH is perfect for this. It allows you to remotely connect to any computer you'r
 
 A good thing to do when enabling SSH on your machine is to change the port it listens to. By default, SSH expects you to connect on port 22. The bad guys know this, and might try to force into your machine if you leave it unprotected and accessible from the internet listening on port 22. To change the SSH port on Debian, you'll have to edit a file and restart `sshd`:
 
-```{ .bash .large }
+```shell
 sed -i ".bak" "s/Port 22/Port 23574/" /etc/ssh/sshd_config
 systemctl restart service sshd
 ```
 
 I also usually install `ufw` and restrict the ports I open on the machine. This prevents unexpected programs to receive connections unless I authorize them.
 
-```{ .bash .large }
+```shell
 # Let's not prevent ourselves from logging in before enabling the rules.
 ufw allow 23574
 ufw enable
@@ -60,7 +60,7 @@ At last, the need to have some backup strategy arises when you start to run more
 
 As promised in [the article about my Synology NAS and the backups]({{< ref "synology-nas-stream-and-backup" >}}), here is the script I use to regularly backup my Raspberry Pi important files. This is the Home Assistant version, the other script is nearly identical except for the files included in the zip archive.
 
-```{ .bash .large }
+```shell
 #!/bin/bash
 set -e
 
@@ -100,7 +100,7 @@ This script:
 
 For this simple script to work, I had to mount a volume of my NAS on the Raspberry Pi. This is done by adding a new line to the [`/etc/fstab`](https://en.wikipedia.org/wiki/Fstab) file:
 
-```{ .text .large }
+```text
 //<ip_address>/backup /mnt/synology-backup cifs username=<username>,password=<password> 0 0
 ```
 
@@ -108,7 +108,7 @@ This mounts the `/backup` volume of my NAS to the `/mnt/synology-backup` folder 
 
 And the last piece of the puzzle: to run the script periodically I had to edit a [`crontab`](https://en.wikipedia.org/wiki/Cron). `cron` is a Linux program designed to run periodical tasks. It's based on a file called a `crontab` which tells what to run when. Each user has its own `crontab`. I decided to use root's to run my scripts so that I won't run into permission issues:
 
-```{ .text .large }
+```text
 30 3 * * * /home/homeassistant/backup.sh >> /home/homeassistant/backup.log
 ```
 

@@ -9,7 +9,7 @@ Today I learned that recursively changing the owner of a directory tree in a Doc
 ## 🚛 The issue
 You may remember how in a [previous post]({{< ref "docker-images-layers-and-cache/" >}}) we used a small example to discuss layers and final image size. Well, here's our example again, slightly modified.
 
-```Dockerfile hl_lines="5"
+```Dockerfile {hl_lines="5"}
 # Dockerfile
 FROM ubuntu
 WORKDIR /app
@@ -40,7 +40,7 @@ RUN chown -R 33:33 /app
 
 This results in an image weighing 492MB. Let's bring it down to 283MB! (2x~100MB + ~75MB)
 
-```Dockerfile hl_lines="9 14 15 19"
+```Dockerfile {hl_lines="9 14 15 19"}
 FROM ubuntu AS build
 WORKDIR /build
 RUN fallocate -l 100M binary
