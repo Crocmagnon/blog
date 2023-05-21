@@ -8,3 +8,12 @@
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
+
+{{ if hugo.IsProduction }}
+<script async defer src="/vendor/goatcounter.js"
+data-goatcounter="https://gc.gabnotes.org/count"></script>
+<noscript>
+    <img src="https://gc.gabnotes.org/count?p={{ .RelPermalink }}"
+         alt="GoatCounter tracking pixel">
+</noscript>
+{{ end }}
