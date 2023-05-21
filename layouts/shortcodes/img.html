@@ -1,5 +1,7 @@
 {{ $src := .Get "src" }}
-{{ $origImage := .Page.Resources.GetMatch $src }}
+{{ $pageImage := .Page.Resources.Get $src }}
+{{ $siteImage := resources.Get $src }}
+{{ $origImage := $pageImage | default $siteImage }}
 {{ if eq $origImage.MediaType.SubType "svg" }}
     <img src="{{ $origImage.RelPermalink }}" alt='{{ .Get "alt" }}'>
 {{ else }}

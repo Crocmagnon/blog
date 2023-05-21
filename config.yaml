@@ -19,9 +19,8 @@ params:
   title: "Gab’s Notes"
   description: "My take on tech-related subjects (but not only)."
   keywords: [blog, tech, docker, golang, python, self-hosting]
-  author: "Gabriel Augendre"
-  # author: ["Me", "You"] # multiple authors
-  #images: ["<link or path of image for opengraph, twitter-cards>"]
+#  author: "Gabriel Augendre"
+  images: ["img/portrait.jpg"]
   DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light
   disableThemeToggle: false

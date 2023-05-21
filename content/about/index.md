@@ -31,7 +31,7 @@ I'm Gabriel, a Go and Python software developer at [OVHcloud](https://www.ovhclo
 {{< unsafe >}}
 <p class="pictures">
 {{< /unsafe >}}
-{{< img src="39.jpg" alt="A picture of Gabriel Augendre" >}}
+{{< img src="img/portrait.jpg" alt="A picture of Gabriel Augendre" >}}
 {{< img src="41.jpg" alt="His usual avatar for online profiles, the dwarf from a medieval fantasy audio story named 'Le Donjon de Naheulbeuk' (French)" >}}
 {{< unsafe >}}
 </p>
