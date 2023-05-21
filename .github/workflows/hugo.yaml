@@ -61,7 +61,6 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"   
-          cp ./public/index.xml ./public/feed
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
