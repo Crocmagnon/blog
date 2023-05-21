@@ -36,7 +36,7 @@ Among them, only poetry ticks all the boxes. pip-tools and pipenv don't have fea
 
 ### Version constraints
 
-![Poetry logo](35.svg)
+{{< img src="35.svg" alt="Poetry logo" >}}
 
 
 Poetry lets you specify your direct dependencies in a standard file called `pyproject.toml`. You can either edit this file manually or use the `poetry` command line tool.
@@ -113,4 +113,4 @@ The setup in a Docker image is also quite straightforward if you accept to have 
 
 Poetry is very **pleasant** to work with and we feel **safer** adding dependencies, knowing that there won't be any surprise conflict after the installation. We can also easily **build and publish** packages for internal use with the same tool, it's just a new command to learn.
 
-Anyway, I hope you learned something in this post about our experience with poetry! As always, please [contact me]({{< ref "about-me#contact" >}}) if you have comments or questions!
+Anyway, I hope you learned something in this post about our experience with poetry! As always, please [contact me]({{< ref "about#contact" >}}) if you have comments or questions!

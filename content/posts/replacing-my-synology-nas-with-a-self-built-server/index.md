@@ -10,7 +10,7 @@ I don't use TrueNAS anymore but I still have this machine and I even upgraded th
 
 A few weeks ago, I replaced my trusty [Synology DS216play]({{< ref "synology-nas-stream-and-backup/" >}}) with a more powerful station that I built myself. I hadn't built a computer in a long time and it was a lot of fun!
 
-![TrueNAS Logo](26.svg)<!--more-->
+{{< img src="26.svg" alt="TrueNAS Logo" >}}<!--more-->
 
 ## Build time!
 I chose to go team red this time because I never used an AMD processor. I picked a Ryzen 5 3400G which should be more than enough for the next few years. A quick detour on the specs:
@@ -40,7 +40,7 @@ The day to day management is also quite easy and after setting up some automated
 I experienced some issues with my UPS though. TrueNAS allows you to monitor the state of a USB UPS and gracefully shutdown the system when it's on battery or when it reaches low battery. This is very useful to prevent data loss. It also sends you an email when something bad happens (UPS in bad state, UPS doesn't respond, etc). The state is polled every 2 seconds by default. My UPS decided it was a bit too much and the monitoring service *in the UPS* failed in the night after running a couple of hours. I woke up with an inbox full of alert emails (*one per minute* of supposed outage). The fix was relatively easy: set the polling interval to a higher value like 15 seconds, so the UPS doesn't feel DOSed. I'm not running a datacenter and my server doesn't draw too much power compared to the UPS capacity so I'm not concerned about the UPS failing within 15 seconds in case of a power outage.
 
 ## Experimentations
-![FreeBSD Logo](28.png)
+{{< img src="28.png" alt="FreeBSD Logo" >}}
 
 This server will allow me to experiment more freely. I used to rent a VPS for always on services but now I can just pop them onto this machine. One detail though: FreeNAS is based on [FreeBSD](https://en.wikipedia.org/wiki/FreeBSD). FreeBSD is *not* a GNU/Linux distribution though there are some similarities. It's a system I've never administrated before and it can be a bit confusing when popping into the command line. On the other hand, if you have a pretty standard setup, you never see FreeBSD as everything can be managed through the GUI.
 
@@ -61,9 +61,9 @@ My current setup includes:
 * A VM with some Docker services:
     * This blog (migrated from the VPS)
     * Collabora Online server (provides online collaboration on LibreOffice/Microsoft Office documents in NextCloud)
-    * [Plausible Analytics]({{< ref "about-me/#analytics" >}})
+    * [Plausible Analytics]({{< ref "/about#analytics" >}})
 
 The Raspberry Pi still runs Home Assistant but I disabled InfluxDB and Grafana since I didn't use them. The VPS is shut down and I plan on deleting it by the end of the month since I don't need it anymore.
 
 ## Closing thoughts
-I'm really happy with this setup! I don't know yet what I'm going to do with my new NextCloud though. I tried NextCloud talk but I couldn't get it working properly for video calls. I might replace pCloud (I have a lifetime 2To plan) and use it as a backup service, who knows! If you have suggestions, please feel free to [contact me]({{< ref "about-me/" >}}). 😀
+I'm really happy with this setup! I don't know yet what I'm going to do with my new NextCloud though. I tried NextCloud talk but I couldn't get it working properly for video calls. I might replace pCloud (I have a lifetime 2To plan) and use it as a backup service, who knows! If you have suggestions, please feel free to [contact me]({{< ref "/about" >}}). 😀

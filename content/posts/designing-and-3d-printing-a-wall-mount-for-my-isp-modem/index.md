@@ -8,7 +8,7 @@ I recently moved to a new apartment and now I have a little closet which contain
 
 For a few weeks, it sat on the floor in this closet since I didn't have any room for it anywhere else. I wasn't satisfied, so I decided to design some small pieces to create a wall mount for the beast.
 
-![Freebox Delta S Server](7.png)
+{{< img src="7.png" alt="Freebox Delta S Server" >}}
 
 #100DaysToOffload No. 16<!--more-->
 
@@ -25,9 +25,9 @@ My modem has a triangular shape with a screen on one edge and ports on the oppos
 
 Here's what they look like:
 
-![Bottom piece](14.png)
+{{< img src="14.png" alt="Bottom piece" >}}
 
-![Top piece](15.png)
+{{< img src="15.png" alt="Top piece" >}}
 
 The piece looking like a U will be printed twice and will support the modem on the bottom and the S shape will prevent it from tumbling. The holes with two diameters are there to let a screw pass and hide its head. The other holes on the opposite side of the U are there to make room for my screwdriver when mounting them.
 
@@ -56,9 +56,9 @@ I was a bit worried about the resistance for the bottom pieces but they seem to 
 
 Here's what it looks like once mounted and plugged:
 
-![Large view of my closet with the modem mounted on the wall](6.jpeg)
+{{< img src="6.jpeg" alt="Large view of my closet with the modem mounted on the wall" >}}
 
-![Close view of my closet with the modem mounted on the wall](5.jpeg)
+{{< img src="5.jpeg" alt="Close view of my closet with the modem mounted on the wall" >}}
 
 I'm quite proud of this since it's one of my first "hardware" projects from start to finish and it looks quite gorgeous in that red plastic 😍
 

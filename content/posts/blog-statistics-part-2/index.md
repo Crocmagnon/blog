@@ -9,10 +9,10 @@ In a [recent post]({{< ref "adding-time-to-my-blogs-statistics" >}}), I talked a
 Today, I went another way and configured [GoAccess](http://goaccess.io/) to provide me with an HTML report with data extracted from my webserver's logs.
 
 {{< note class="info" title="Update 2020-01-03" >}}
-I now use [my own blog platform]({{< ref "blog-platform-update-quick-note/" >}}) with [Goatcounter]({{< ref "about-me/#analytics" >}}).
+I now use [my own blog platform]({{< ref "blog-platform-update-quick-note/" >}}) with [Goatcounter]({{< ref "/about#analytics" >}}).
 {{< /note >}}
 
-![GoAccess Screenshot](8.png)
+{{< img src="8.png" alt="GoAccess Screenshot" >}}
 
 #100DaysToOffload No. 14<!--more-->
 

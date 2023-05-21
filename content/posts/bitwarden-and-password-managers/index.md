@@ -6,7 +6,7 @@ aliases: ["/bitwarden-and-password-managers"]
 ---
 [TL;DR](https://en.wiktionary.org/wiki/tl;dr): I use a password manager and you should too. [Bitwarden](http://bitwarden.com/) is a Free Software alternative.
 
-![Bitwarden Logo](3.svg)
+{{< img src="3.svg" alt="Bitwarden Logo" >}}
 
 This is my 10th post of #100DaysToOffload.<!--more-->
 

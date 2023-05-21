@@ -6,7 +6,7 @@ aliases: ["/i-needed-a-budget-with-four-rules"]
 ---
 In January 2020, I discovered a budget app called You Need A Budget ([YNAB](https://youneedabudget.com/)). I've been using it since then and I'm very happy with it, here's why.
 
-![YNAB Logo](20.svg)
+{{< img src="20.svg" alt="YNAB Logo" >}}
 
 #100DaysToOffload No. 13<!--more-->
 
@@ -65,7 +65,7 @@ They also have group video sessions very regularly to help you get started or ta
 
 I really encourage you to take a look at [YNAB](https://www.youneedabudget.com/). If you want to use their software, they offer a 34-days trial. If you're a student, you can get a whole year for free.
 
-If you do try it, please [drop me a line]({{< ref "about-me" >}})! I'd be more than happy to know if you find it interesting and whether it works for you or not 😊
+If you do try it, please [drop me a line]({{< ref "about" >}})! I'd be more than happy to know if you find it interesting and whether it works for you or not 😊
 
 After the trial, the service is billed $84/year (that's $7/month). It may seem steep but you should really give it a try before stopping for the price. If at the end of your trial you still don't think it's the right tool for you, then you can still take the advice they offer, read their website/blog or ask questions to the community and apply it on your own budget!
 

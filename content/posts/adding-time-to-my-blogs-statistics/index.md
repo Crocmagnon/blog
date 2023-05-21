@@ -4,12 +4,12 @@ tags: ['analytics', 'blog', 'self-hosting']
 date: 2020-06-15T16:27:27+00:00
 aliases: ["/adding-time-to-my-blogs-statistics"]
 ---
-![Two Grafana graphs: one to view the raw view counts evolving, the other to display the difference between two data points](9.png)
+{{< img src="9.png" alt="Two Grafana graphs: one to view the raw view counts evolving, the other to display the difference between two data points" >}}
 
 Recently I added some statistics to my blog. I wanted to do that with minimum effort and without serving any crappy proprietary JavaScript to my users.
 
 {{< note class="info" title="Update 2020-01-03" >}}
-I now use [my own blog platform]({{< ref "blog-platform-update-quick-note/" >}}) with [Plausible Analytics]({{< ref "about-me/#analytics" >}}).
+I now use [my own blog platform]({{< ref "blog-platform-update-quick-note/" >}}) with [Plausible Analytics]({{< ref "/about#analytics" >}}).
 {{< /note >}}
 
 #100DaysToOffload No. 11
@@ -17,7 +17,7 @@ I now use [my own blog platform]({{< ref "blog-platform-update-quick-note/" >}})
 
 My blog is powered by [WriteFreely](https://writefreely.org/), a free software written in Go. They already include a counter of views per page of my blog. This is nice, you can see the numbers in your admin interface so you can see which page works better than the others.
 
-![My blog stats as displayed in WriteFreely writer interface](19.png)
+{{< img src="19.png" alt="My blog stats as displayed in WriteFreely writer interface" >}}
 
 The thing is, you don't have any notion of time. You can't differentiate a post which has made 1000 views in 3 days from another which has made 1000 views in 2 months.
 
@@ -163,7 +163,7 @@ I made two panels on my Grafana dashboard: one to view the raw view counts evolv
 
 Here are the two graphs in action:
 
-![Two Grafana graphs: one to view the raw view counts evolving, the other to display the difference between two data points](9.png)
+{{< img src="9.png" alt="Two Grafana graphs: one to view the raw view counts evolving, the other to display the difference between two data points" >}}
 
 ## Allowing communication between devices
 

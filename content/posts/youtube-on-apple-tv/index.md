@@ -40,7 +40,7 @@ The only "cool" thing is that once it's fixed, it's fixed for all videos I play 
 
 So if by any chance a Google engineer comes across this blog post, I'd be more than happy to share my experience with them to help improve the app experience.
 
-And if you have any suggestions to peacefully watch YouTube on the Apple TV with an AirPlay speaker, please [reach out to me]({{< ref "about-me" >}}) 😊
+And if you have any suggestions to peacefully watch YouTube on the Apple TV with an AirPlay speaker, please [reach out to me]({{< ref "about" >}}) 😊
 
 This concludes my 4th post of #100DaysToOffload.
 

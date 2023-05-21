@@ -1,0 +1,10 @@
+{{ $src := .Get "src" }}
+{{ $origImage := .Page.Resources.GetMatch $src }}
+{{ if eq $origImage.MediaType.SubType "svg" }}
+    <img src="{{ $origImage.RelPermalink }}" alt='.Get "alt"'>
+{{ else }}
+    {{ $image := $origImage.Resize "720x" }}
+    <a href="{{ $origImage.RelPermalink }}">
+        <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt='.Get "alt"'>
+    </a>
+{{ end }}

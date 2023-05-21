@@ -8,7 +8,7 @@ I participated in the [latest CodinGame challenge](https://www.codingame.com/mul
 
 #100DaysToOffload No. 7
 
-![Cover picture for CodinGame Spring Challenge 2020. There is one yellow Pacman and one blue Pacman fighting against each other](2.jpg)<!--more-->
+{{< img src="2.jpg" alt="Cover picture for CodinGame Spring Challenge 2020. There is one yellow Pacman and one blue Pacman fighting against each other" >}}<!--more-->
 
 CodinGame is a coding platform on which you can solve puzzles by writing a program in the language of your choice. They also often host contests in which your code fights against that of other developers. The most matches you win, the most points you get. And the most points you get, the higher you climb on the leaderboard. I like to participate in these challenges, so I signed up for the latest one: CodinGame Spring Challenge 2020.
 
@@ -55,7 +55,7 @@ These two abilities can really change the course of a match so you'd better take
 
 Of course, not seeing the whole map means you have to keep a state between each turn to remember the position of the pellets you've already seen. That way, you can go back to them later if you don't see anything anymore.
 
-My code for this challenge is available on [Gitea](https://git.augendre.info/gaugendre/codingame/src/branch/master/challenges/2020-spring.py). It's written in Python, feel free to check it and drop me an [email]({{< ref "about-me/" >}}) or a message on [Mastodon]({{< ref "about-me/" >}}) if you have any question! It's not written in a very maintainable way since its expected life span was that of the contest, so 11 days. I could've spent more time refactoring stuff but *in this context* this would have likely been wasted time.
+My code for this challenge is available on [Gitea](https://git.augendre.info/gaugendre/codingame/src/branch/master/challenges/2020-spring.py). It's written in Python, feel free to check it and drop me an [email]({{< ref "/about" >}}) or a message on [Mastodon]({{< ref "/about" >}}) if you have any question! It's not written in a very maintainable way since its expected life span was that of the contest, so 11 days. I could've spent more time refactoring stuff but *in this context* this would have likely been wasted time.
 
 Basically, here's what I do:
 

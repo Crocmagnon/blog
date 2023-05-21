@@ -14,4 +14,4 @@ The code powering this website is available at [Gitea](https://git.augendre.info
 
 During the migration, I lost the feature that pushed every article on Mastodon. If you followed the blog using this mechanism, I encourage you to switch to the RSS feed.
 
-If you subscribed with the RSS feed, your reader might redownload all the previous articles, if that's the case I'm really sorry but I don't know how to prevent it. If you happen to know, please [reach out to me]({{< ref "about-me" >}})!
+If you subscribed with the RSS feed, your reader might redownload all the previous articles, if that's the case I'm really sorry but I don't know how to prevent it. If you happen to know, please [reach out to me]({{< ref "about" >}})!

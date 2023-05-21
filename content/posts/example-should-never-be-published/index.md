@@ -70,7 +70,7 @@ Breaking paragraph
 
 This should be an image:
 
-![Image alt text](32.png)
+{{< img src="32.png" alt="Image alt text" >}}
 
 <details>
   <summary>Spoiler alert!</summary>

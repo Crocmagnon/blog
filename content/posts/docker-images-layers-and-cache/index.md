@@ -6,7 +6,7 @@ aliases: ["/docker-images-layers-and-cache"]
 ---
 In this post, we'll walk through Docker image layers and the caching around them from the point of view of a Docker user. I'll assume you're already familiar with Dockerfiles and Docker concepts in general.
 
-![Docker logo](32.png)
+{{< img src="32.png" alt="Docker logo" >}}
 
 ## ✌️ The two axioms of Docker layers
 There are two key concepts to understand, from which everything else is deduced. Let's call them our axioms.
@@ -354,7 +354,7 @@ See how `python.tar.xz` is downloaded and then deleted all in the same step? Tha
 
 Well that wraps it up for today! It was quite technical but I hope you learned something along the way 🙂
 
-As always, please [contact me]({{< ref "about-me#contact" >}}) if you have comments or questions!
+As always, please [contact me]({{< ref "about#contact" >}}) if you have comments or questions!
 
 ## 📚 Further reading
 * [About storage drivers (Docker docs)](https://docs.docker.com/storage/storagedriver/)

@@ -12,7 +12,7 @@ I bought a Raspberry Pi 3 model B+ about a year ago. I had to check the order da
 
 Now feels a good time to talk about my experience with the little guy. This will be my #100DaysToOffload fifth post.
 
-![Illustration of a Raspberry Pi 3 model B](13.JPG)<!--more-->
+{{< img src="13.JPG" alt="Illustration of a Raspberry Pi 3 model B" >}}<!--more-->
 Illustration of a Raspberry Pi 3 model B by Jose.gil on Wikipedia, CC-BY-SA.
 
 ## The Raspberry Pi

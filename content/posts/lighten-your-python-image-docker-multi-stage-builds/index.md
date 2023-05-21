@@ -213,7 +213,7 @@ Again, this is in the spirit of minimizing the production image.
 
 Docker multi-stage builds helped me reduce my image sizes and attack surface - sometimes by *a lot* - without compromising on features.
 
-I hope that you enjoyed reading this article and that you found it interesting or helpful! Please feel free to [contact me]({{< ref "about-me/" >}}) if you want to comment on the subject.
+I hope that you enjoyed reading this article and that you found it interesting or helpful! Please feel free to [contact me]({{< ref "/about" >}}) if you want to comment on the subject.
 
 In a future post, I'll talk about reducing Docker images build time in a CI environment where the filesystem isn't guaranteed to stay between runs.
 

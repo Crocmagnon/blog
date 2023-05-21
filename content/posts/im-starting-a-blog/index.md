@@ -38,7 +38,7 @@ I already have a list of topics I'd like to share:
 
 ## Where to reach me
 
-Up-to-date info should appear on the [About me]({{< ref "about-me" >}}) page on this site.
+Up-to-date info should appear on the [About me]({{< ref "about" >}}) page on this site.
 
 Any feedback is highly appreciated!
 

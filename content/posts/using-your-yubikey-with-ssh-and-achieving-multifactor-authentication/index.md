@@ -6,7 +6,7 @@ aliases: ["/using-your-yubikey-with-ssh-and-achieving-multifactor-authentication
 ---
 In my [introductory article]({{< ref "im-starting-a-blog" >}}), I teased about using SSH with a YubiKey. Here's the post that expands on the idea.
 
-![YubiKeys](21.jpeg)
+{{< img src="21.jpeg" alt="YubiKeys" >}}
 As you can see, I *like* YubiKeys.
 
 This is part of my #100DaysToOffload series, issue No. 6.<!--more-->

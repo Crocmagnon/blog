@@ -9,7 +9,7 @@ I don't use Pi Hole anymore but this post should still be relevant. I've switche
 {{< /note >}}
 
 
-![Pi Hole logo](11.svg)
+{{< img src="11.svg" alt="Pi Hole logo" >}}
 
 
 As I was telling you [before](https://gabnotes.org/raspberry-pi), I own a Raspberry Pi on which I set up a [Pi Hole](https://pi-hole.net/).
@@ -18,14 +18,14 @@ As they advertise it, Pi Hole is "a black hole for internet advertisement". It's
 
 Again, I won't go into details of how to setup your own Pi Hole, there are plenty of good resources for that, starting with Pi Hole's own website. Just remember to setup your DHCP server to advertise your Pi Hole IP as the preferred DNS resolver, so that every device connected to your network can automatically benefit from it.
 
-I won't also explain how Pi Hole blocks your ads but if you'd like me to, please [let me know]({{< ref "about-me" >}}).
+I won't also explain how Pi Hole blocks your ads but if you'd like me to, please [let me know]({{< ref "about" >}}).
 
 Today's quick post is about how great Pi Hole is, in a few bullet points:
 
 * It's easy to set up.
 * It's very low maintenance. I basically check for an update every now an then but otherwise I pretty much let it live its own life.
 * You can set it up in a privacy preserving way by choosing what statistics/logs you want to collect:
-![Privacy options in Pi Hole. There are five options ranging from "log every request with the client and the requested domain" to "no logs, no stats".](10.png)
+{{< img src="10.png" alt="Privacy options in Pi Hole. There are five options ranging from 'log every request with the client and the requested domain' to 'no logs, no stats'." >}}
 * Did I mention it blocks ads? That works everywhere and especially well coupled with other solutions such as [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/), [Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/) or [Ghostery](https://addons.mozilla.org/en-US/firefox/addon/ghostery/) in your browser but it also in some of your smartphone apps 😁
 * Since it caches the DNS responses, it also improves a tiny bit your browsing speed and prevents your FAI or another DNS server to spy on you too much. And it reduces your footprint by sending less data on the internet. That's not why I primarily use it but it's a little bonus.
 

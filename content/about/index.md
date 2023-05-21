@@ -9,8 +9,8 @@ ShowWordCount: false
 ---
 I'm Gabriel, a Go and Python software developer at [OVHcloud](https://www.ovhcloud.com/) (Lyon, France) and [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) enthusiast.
 
-![A picture of Gabriel Augendre](39.jpg)
-![His usual avatar for online profiles, the dwarf from a medieval fantasy audio story named "Le Donjon de Naheulbeuk" (French)](41.jpg)
+{{< img src="39.jpg" alt="A picture of Gabriel Augendre" >}}
+{{< img src="41.jpg" alt="His usual avatar for online profiles, the dwarf from a medieval fantasy audio story named 'Le Donjon de Naheulbeuk' (French)" >}}
 
 ## Where to find me {#contact}
 

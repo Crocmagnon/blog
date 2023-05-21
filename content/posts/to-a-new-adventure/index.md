@@ -8,7 +8,7 @@ After leaving ITSF in January, I spent February at Gatewatcher. The company is i
 
 After a month of job hunting, I'm happy to report that I'll be joining [OVHcloud](https://ovhcloud.com) in April! They have offices in Lyon so the remoteness shouldn't be an issue, though the people I'll be teaming up with are distributed in France and Canada. I've been hired as a software developer & site reliability engineer. I'll be mostly developing in Go and Python.
 
-![OVHcloud logo on a wall, slightly blurry](45.jpg)
+{{< img src="45.jpg" alt="OVHcloud logo on a wall, slightly blurry" >}}
 
 
 During this month I met several other organizations. All of them had interesting projects to share and it was very rewarding to have the opportunity to discuss with them.
@@ -29,5 +29,3 @@ Here are some links (in alphabetical order) so you can check their work:
 
 Anyway, I'm really excited to start my new job! Wish me luck 😊
 
-<!-- ![OVHcloud logo](44.png)
- -->

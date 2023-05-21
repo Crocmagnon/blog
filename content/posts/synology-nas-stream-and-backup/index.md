@@ -57,16 +57,16 @@ I will probably have a look at [HandBrake](https://handbrake.fr/) which I discov
 The other main thing I use my NAS for is keeping backups. The configuration here is also really easy too, at least for Time Machine on macOS:
 
 1. Enable a file-sharing service like SMB
-![Screenshot of the "File Services" setting screen in Synology DSM](16.png)
+{{< img src="16.png" alt="Screenshot of the 'File Services' setting screen in Synology DSM" >}}
 
 2. Advertise Time Machine on the protocol you enabled
-![Screenshot of the "File Services - Advanced" setting screen in Synology DSM](17.png)
+{{< img src="17.png" alt="Screenshot of the 'File Services - Advanced' setting screen in Synology DSM" >}}
 
 3. Configure your Mac to use your network drive as a Time Machine backup
 
 This setup served me well for many months but it recently started to fail and I don't understand why yet. I just have a cryptic error on my Mac telling that the backup couldn't complete.
 
-![Screenshot of the Time Machine error on macOS](18.png)
+{{< img src="18.png" alt="Screenshot of the Time Machine error on macOS" >}}
 
 I'll have to investigate this issue further, but I'm not too stressed either. All of my documents live in the cloud and my code projects are pushed on remote git repositories. The only thing I'll lose if my computer gets stolen is a bunch of stickers I really like and a few hours to set a new one up.
 
