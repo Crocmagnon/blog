@@ -1,5 +1,5 @@
 baseURL: "https://gabnotes.org"
-title: "Gab's Notes"
+title: "Gab’s Notes"
 paginate: 10
 theme: "PaperMod"
 
@@ -16,7 +16,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: "Gab's Notes"
+  title: "Gab’s Notes"
   description: "My take on tech-related subjects (but not only)."
   keywords: [blog, tech, docker, golang, python, self-hosting]
   author: "Gabriel Augendre"
