@@ -4,13 +4,10 @@ tags: ['Docker', 'multi-stage builds', 'poetry', 'python']
 date: 2021-01-02T10:37:29.021773+00:00
 aliases: ["/lighten-your-python-image-docker-multi-stage-builds"]
 ---
-In previous posts we talked about [poetry][poetry] and [Docker images layers][docker-cache] and I promised I would write about Docker multi-stage builds, so here we go!
-
-[poetry]: {{< ref "poetry-python-dependencies-management" >}}
-[docker-cache]: {{< ref "docker-images-layers-and-cache" >}}
+In previous posts we talked about [poetry]({{< ref "poetry-python-dependencies-management" >}}) and [Docker images layers]({{< ref "docker-images-layers-and-cache" >}}) and I promised I would write about Docker multi-stage builds, so here we go!
 
 !!! info "Note"
-    I will explain the basics of Docker multi-stage builds required to understand the post but I won't repeat the documentation (see [further reading](#further-reading)).
+    I will explain the basics of Docker multi-stage builds required to understand the post but I won't repeat the documentation (see [further reading](#-further-reading)).
 
 ## ⚙️ Multi-stage builds
 
@@ -82,7 +79,7 @@ HEALTHCHECK --start-period=30s CMD python -c "import requests; requests.get('htt
 CMD ["gunicorn", "blog.wsgi", "-b 0.0.0.0:8000", "--log-file", "-"]
 ```
 
-It's already not that bad! We are taking advantage of the [cache][docker-cache] by copying only the files that describe our dependencies before installing them, and the Dockerfile is easy to read.
+It's already not that bad! We are taking advantage of the [cache]({{< ref "docker-images-layers-and-cache" >}}) by copying only the files that describe our dependencies before installing them, and the Dockerfile is easy to read.
 
 Now, our final image attack surface could be reduced: we're using a full Debian buster with all the build tools included and we have `poetry` installed in our image when we don't need it at runtime.
 
