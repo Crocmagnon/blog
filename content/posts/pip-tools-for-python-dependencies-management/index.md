@@ -125,15 +125,15 @@ def sync_dependencies(ctx: Context) -> None:
 
 Invoke is a sort of Makefile, but written in Python.
 
-```shell
-❯ invoke --list  # shorter: inv -l
+```shell-session
+$ invoke --list  # shorter: inv -l
 Available tasks:
 
   compile-dependencies
   sync-dependencies
   update-dependencies
 
-❯ inv compile-dependencies
+$ inv compile-dependencies
 # Runs the commands...
 ```
 
