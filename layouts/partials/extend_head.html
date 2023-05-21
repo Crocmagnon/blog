@@ -1,4 +1,4 @@
-{{ $admonitions := resources.Get "css/admonitions.css" }}
+{{ $admonitions := resources.Get "css/admonitions.css" | resources.Minify }}
 <link rel="stylesheet" href="{{ $admonitions.Permalink }}">
-{{ $style := resources.Get "css/style.css" }}
+{{ $style := resources.Get "css/style.css" | resources.Minify }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
