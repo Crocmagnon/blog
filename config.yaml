@@ -37,7 +37,7 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: true
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   hideFooter: true
@@ -47,11 +47,11 @@ params:
   assets:
     disableHLJS: true
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+#    favicon: "<link / abs url>"
+#    favicon16x16: "<link / abs url>"
+#    favicon32x32: "<link / abs url>"
+#    apple_touch_icon: "<link / abs url>"
+#    safari_pinned_tab: "<link / abs url>"
 
   label:
     text: "Home"
