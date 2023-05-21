@@ -3,10 +3,10 @@ title: "Demo post"
 tags: []
 date: 2021-01-03T18:08:52.170212+00:00
 aliases: ["/example-should-never-be-published"]
+draft: true
+showtoc: true
 ---
 This is a paragraph and should look like it. It is probably left align, not justified. After all, we're on the web not in a book.
-
-[TOC]
 
 # Heading 1
 ## Heading 2
@@ -96,7 +96,7 @@ Then, the `COPY --from` is used to retrieve the built binary from the first stag
 
 In this extreme case, the final image weighs nothing more than the binary itself since `scratch` is a special empty image with no operating system.
 
-Link to another section: [link](#python_poetry)
+Link to another section: [link](#-applying-to-python--poetry)
 
 ## 🐍 Applying to Python & Poetry 
 ### Install the dependencies
