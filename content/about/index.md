@@ -2,10 +2,8 @@
 title: "About me"
 tags: ['Gabriel Augendre', 'blog', 'homepage']
 date: 2020-05-12T11:29:02+00:00
-ShowReadingTime: false
 ShowBreadCrumbs: false
-ShowPostNavLinks: true
-ShowWordCount: false
+hidemeta: true
 custom_css: >-
     .pictures {
         display: flex;
