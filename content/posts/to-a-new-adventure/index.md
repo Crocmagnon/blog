@@ -24,8 +24,5 @@ Here are some links (in alphabetical order) so you can check their work:
 * [Hashbang](https://hashbang.fr/) - small worker cooperative
 * [Smartfire](https://www.smartfire.pro/) - small tech agency
 
-*[CNRS]: French National Centre for Scientific Research
-*[LBBE]: Laboratory of Biometry and Evolutionary Biology 
-
 Anyway, I'm really excited to start my new job! Wish me luck 😊
 

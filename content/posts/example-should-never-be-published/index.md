@@ -17,10 +17,6 @@ This is a paragraph and should look like it. It is probably left align, not just
 
 This is a [link]({{< ref "#" >}}).
 
-Here's an abbreviation: HTML.
-
-*[HTML]: Hyper Text Markup Language
-
 * **Bold text**
 * *Italic text*
 *  <u>Underlined text</u>
