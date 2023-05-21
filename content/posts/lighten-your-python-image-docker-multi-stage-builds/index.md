@@ -6,8 +6,9 @@ aliases: ["/lighten-your-python-image-docker-multi-stage-builds"]
 ---
 In previous posts we talked about [poetry]({{< ref "poetry-python-dependencies-management" >}}) and [Docker images layers]({{< ref "docker-images-layers-and-cache" >}}) and I promised I would write about Docker multi-stage builds, so here we go!
 
-!!! info "Note"
-    I will explain the basics of Docker multi-stage builds required to understand the post but I won't repeat the documentation (see [further reading](#-further-reading)).
+{{< note >}}
+I will explain the basics of Docker multi-stage builds required to understand the post, but I won't repeat the documentation (see [further reading](#-further-reading)).
+{{< /note >}}
 
 ## ⚙️ Multi-stage builds
 

@@ -34,5 +34,6 @@ Thankfully, as [documented](https://pipxproject.github.io/pipx/docs/)[^1], `pipx
 
 [^1]: Also available when running `pipx --help`
 
-!!! info "Update"
-    I've now [switched]({{< ref "setup-rtx-with-direnv-for-python/" >}}) from `pyenv` to `rtx` but the concept remains the same: install python with `rtx`, then set `PIPX_DEFAULT_PYTHON`.
+{{< note class="info" title="Update" >}}
+I've now [switched]({{< ref "setup-rtx-with-direnv-for-python/" >}}) from `pyenv` to `rtx` but the concept remains the same: install python with `rtx`, then set `PIPX_DEFAULT_PYTHON`.
+{{< /note >}}

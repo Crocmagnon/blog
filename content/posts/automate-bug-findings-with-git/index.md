@@ -26,7 +26,7 @@ It takes a command that should exit with 0 if the commit is good and anything el
 
 Git will then do all the heavy lifting for you, running your test script after each checkout and swiftly find the culprit.
 
-!!! Info "☝️ Pro tip"
-    If the script you want to run is versioned, then when git checks out previous commits your test script might change.
-
-    In order to avoid that, a possible workaround is to run a non-versioned copy of the script so it's not changed when git switches to an earlier version of your repository.
+{{< note class="info" title="☝️ Pro tip" >}}
+If the script you want to run is versioned, then when git checks out previous commits your test script might change.  
+In order to avoid that, a possible workaround is to run a non-versioned copy of the script, so it's not changed when git switches to an earlier version of your repository.
+{{< /note >}}

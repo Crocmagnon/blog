@@ -4,8 +4,9 @@ tags: ['Raspberry Pi', 'backup', 'monitoring', 'self-hosting']
 date: 2020-05-16T14:43:38+00:00
 aliases: ["/raspberry-pi"]
 ---
-!!! info "👴 Old post"
-    This post has grown old and I now don't use my Raspberry Pi like this anymore.
+{{< note class="info" title="👴 Old post" >}}
+This post has grown old and I now don't use my Raspberry Pi like this anymore.
+{{< /note >}}
 
 I bought a Raspberry Pi 3 model B+ about a year ago. I had to check the order date because I was pretty sure I had it for longer but I only got it at the end of March 2019.
 

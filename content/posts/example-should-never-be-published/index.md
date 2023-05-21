@@ -32,17 +32,21 @@ Here's a button
 *  <code>Inline code</code>
 *  <kbd>Alt</kbd> + <kbd>F4</kbd>
 
-!!! info "Info"
-    This is an info admonition.
+{{< note class="info" title="Info" >}}
+This is an info admonition.
+{{< /note >}}
 
-!!! success "Success"
-    This is a success admonition.
+{{< note class="success" title="Success" >}}
+This is a success admonition.
+{{< /note >}}
 
-!!! warning "Warning"
-    This is a warning admonition.
+{{< note class="warning" title="Warning" >}}
+This is a warning admonition.
+{{< /note >}}
 
-!!! danger "Danger"
-    This is a danger admonition.
+{{< note class="danger" title="Danger" >}}
+This is a danger admonition.
+{{< /note >}}
 
 ```python hl_lines="1 3"
 # main.py

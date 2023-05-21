@@ -8,8 +8,9 @@ aliases: ["/adding-time-to-my-blogs-statistics"]
 
 Recently I added some statistics to my blog. I wanted to do that with minimum effort and without serving any crappy proprietary JavaScript to my users.
 
-!!! info "Update 2020-01-03"
-    I now use [my own blog platform]({{< ref "blog-platform-update-quick-note/" >}}) with [Plausible Analytics]({{< ref "about-me/#analytics" >}}).
+{{< note class="info" title="Update 2020-01-03" >}}
+I now use [my own blog platform]({{< ref "blog-platform-update-quick-note/" >}}) with [Plausible Analytics]({{< ref "about-me/#analytics" >}}).
+{{< /note >}}
 
 #100DaysToOffload No. 11
 <!--more-->

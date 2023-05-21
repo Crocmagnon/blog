@@ -4,8 +4,9 @@ tags: ['GitHub alternative', 'git', 'software forge']
 date: 2020-07-01T20:26:41+00:00
 aliases: ["/sourcehut"]
 ---
-!!! Info "🧓🏻 Old post"
-    This post is quite old now. Since then, I've moved my git repositories to a self-hosted [gitea](https://gitea.io/) instance and I cancelled my subscription. I still stand behind this post though. Sourcehut is a solid git forge and keeps improving.
+{{< note class="info" title="🧓🏻 Old post" >}}
+This post is quite old now. Since then, I've moved my git repositories to a self-hosted [gitea](https://gitea.io/) instance and I cancelled my subscription. I still stand behind this post though. Sourcehut is a solid git forge and keeps improving.
+{{< /note >}}
 
 For a few weeks now I've been hosting my new projects at [sourcehut](https://sr.ht/~crocmagnon) instead of my usual GitHub account. So far, the experience has been very pleasant but it also has some drawbacks. Let's talk about it!
 

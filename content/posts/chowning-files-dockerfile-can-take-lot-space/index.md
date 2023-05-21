@@ -66,8 +66,9 @@ There you go! By being smart about when to run the permission changes, we just s
 
 In the specific case I was investigating at [ITSF](https://itsf.io), the image went from ~1.6GB to ~0.95GB just from this `chown` trick. We were copying a bunch of files in a directory and at the end we chowned the whole directory recursively. That directory weighed about 650MB, which counted twice in the final image size.
 
-!!! info "Info"
-    Of course this also works with "simple" `COPY` and `ADD` instructions. It's not reserved to copying files from other stages.
+{{< note class="info" title="Info" >}}
+Of course this also works with "simple" `COPY` and `ADD` instructions. It's not reserved to copying files from other stages.
+{{< /note >}}
 
 ## 📓 Don't forget history!
 I discovered that the `chown` was taking that much space using the underrated `docker history` command. I already briefly [introduced]({{< ref "docker-images-layers-and-cache/#cache-invalidation" >}}) it previously but now felt like a good time to remind you of its existence 🙂

@@ -14,8 +14,9 @@ At first, I didn't think I needed a budget. After all, I didn't have any "money 
 
 YNAB's four rules (that you can apply without using the software at all) brought more visibility and more clarity over what my money could do for me. They have a really nice page on their website that explains everything in detail, you can check it out [here](https://www.youneedabudget.com/the-four-rules/). Here's a quick summary of what these rules mean to me.
 
-!!! info "Edit 2021-01-02"
-    I recently discovered a free software and open source alternative: [Firefly III](https://www.firefly-iii.org/). I haven't tried it though.
+{{< note class="info" title="Edit 2021-01-02" >}}
+I recently discovered a free software and open source alternative: [Firefly III](https://www.firefly-iii.org/). I haven't tried it though.
+{{< /note >}}
 
 ## YNAB's four rules
 ### Rule 1: Give Every Dollar a Job.

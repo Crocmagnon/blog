@@ -113,8 +113,9 @@ Here's how the template looks like with htmx. I've removed the non-relevant part
 </div>
 ```
 
-!!! info "django-htmx"
-    The Django htmx part is not mandatory. It's from [django-htmx](https://django-htmx.readthedocs.io/en/latest/index.html), by [Adam Johnson](https://adamj.eu/). It provides a nicer integration between Django and htmx. I encourage you to check out Adam's works, you'll most likely learn a thing or two.
+{{< note class="info" title="django-htmx" >}}
+The Django htmx part is not mandatory. It's from [django-htmx](https://django-htmx.readthedocs.io/en/latest/index.html), by [Adam Johnson](https://adamj.eu/). It provides a nicer integration between Django and htmx. I encourage you to check out Adam's works, you'll most likely learn a thing or two.
+{{< /note >}}
 
 I moved the graph generation part from my main view to two separate views which are called after the DOM is loaded. I didn't have to do much: since I was already rendering everything server-side I only had to render a partial template instead of a complete page.
 
