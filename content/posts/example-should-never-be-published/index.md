@@ -15,15 +15,11 @@ This is a paragraph and should look like it. It is probably left align, not just
 ##### Heading 5
 ###### Heading 6
 
-This is a [link](#).
+This is a [link]({{< ref "#" >}}).
 
 Here's an abbreviation: HTML.
 
 *[HTML]: Hyper Text Markup Language
-
-Here's a button
-
-[<button>Button</button>](#)
 
 * **Bold text**
 * *Italic text*
@@ -96,7 +92,7 @@ Then, the `COPY --from` is used to retrieve the built binary from the first stag
 
 In this extreme case, the final image weighs nothing more than the binary itself since `scratch` is a special empty image with no operating system.
 
-Link to another section: [link](#-applying-to-python--poetry)
+Link to another section: [link]({{< ref "#-applying-to-python--poetry" >}})
 
 ## 🐍 Applying to Python & Poetry 
 ### Install the dependencies
