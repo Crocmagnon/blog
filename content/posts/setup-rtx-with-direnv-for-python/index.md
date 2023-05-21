@@ -3,6 +3,8 @@ title: "Setup rtx with direnv for Python"
 tags: ['development', 'python', 'shell', 'virtualenv']
 date: 2023-02-28T23:58:39.540937+00:00
 aliases: ["/setup-rtx-with-direnv-for-python"]
+description: Improve startup time and simplify your PATH
+summary: Improve startup time and simplify your PATH
 ---
 ## 👨🏻‍💻 TL;DR
 

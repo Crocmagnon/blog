@@ -3,6 +3,8 @@ title: "Optimize large Django migrations"
 tags: ['Django', 'ITSF', 'python']
 date: 2022-03-31T19:50:35.048724+00:00
 aliases: ["/optimize-large-django-migrations"]
+summary: Sometimes more is less.
+description: Sometimes more is less.
 ---
 ## 📖 Backstory
 Today, while working on a project at [ITSF](https://itsf.io), I needed to add a new field to an existing model in a Django project. This field had to initially be computed from other values in the same model, so I couldn't use a constant default value for all the existing objects.
@@ -53,7 +55,7 @@ def forwards(apps, schema_editor):
         Model.objects.using(db_alias).bulk_update(instances, ["new_field"])
 ```
 
-I could spend time tweaking the page size but I know our migrations job can handle batches of 1000 objects, so I didn't put too much effort into that.
+I could spend time tweaking the page size, but I know our migrations job can handle batches of 1000 objects, so I didn't put too much effort into that.
 
 ## 📝 Key takeaways
 

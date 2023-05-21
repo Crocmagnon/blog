@@ -3,12 +3,13 @@ title: "Create a CSR with SAN"
 tags: ['Certificates', 'OpenSSL', 'Quick Note', 'TLS']
 date: 2022-12-20T13:56:56.467033+00:00
 aliases: ["/create-a-csr"]
+summary: How to generate a CSR for a basic certificate supported by modern browsers
 ---
 Another quick note today: how to generate a CSR for a basic certificate supported by modern browsers (includes `Subject Alternative Name`).
 
 ## Config file
 
-```toml
+```plain
 # example.conf
 [req]
 prompt = no

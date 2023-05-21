@@ -3,6 +3,7 @@ title: "Certificates chain correct order"
 tags: ['Certificates', 'OpenSSL', 'Quick Note', 'TLS']
 date: 2022-08-04T09:35:07.590872+00:00
 aliases: ["/certificates-chain-correct-order"]
+summary: Certificates in a chain file should start with the “final” certificate (the cert issued to you). Each following certificate should be the issuer of the previous one.
 ---
 Making honor to the name of this blog, here's a very quick note for my future self.
 

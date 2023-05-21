@@ -1,6 +1,7 @@
 ---
 title: "Update this feed's URL"
 date: 2023-05-21T12:20:20+02:00
+summary: "The RSS feed for this blog has changed."
 ---
 
 {{< note >}}

@@ -3,6 +3,7 @@ title: "Reduce your page load time with htmx in less than an hour"
 tags: ['Django', 'Javascript', 'frontend', 'programming', 'python']
 date: 2022-09-26T11:49:45.812120+00:00
 aliases: ["/reduce-your-page-load-time-with-htmx-in-less-than-an-hour"]
+summary: HTMX is a wonderful piece of technology for backend developers who don't want to write frontend code but still provide nice UX.
 ---
 ## Presentation
 During DjangoCon EU 2022, a talk reminded me of [htmx](https://htmx.org/). As the authors put it:

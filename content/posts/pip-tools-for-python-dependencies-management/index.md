@@ -3,6 +3,8 @@ title: "pip-tools for Python dependencies management"
 tags: ['dependencies', 'pip-tools', 'python']
 date: 2023-03-02T13:07:26.381756+00:00
 aliases: ["/pip-tools-for-python-dependencies-management"]
+description: "Here's how and why I use pip-tools for my side-projects."
+summary: "Here's how and why I use pip-tools for my side-projects."
 ---
 ## 📖 Story time
 
@@ -22,7 +24,7 @@ The requirements from late 2020 were the following:
 
 At the time, we considered `pipenv`, `poetry` and `pip-tools`, and chose Poetry because it was the only one checking all the boxes.
 
-Two years later, these requirements haven't changed but I now find Poetry to be too complex and moved all my active side projects to `pip-tools`.
+Two years later, these requirements haven't changed, but I now find Poetry to be too complex and moved all my active side projects to `pip-tools`.
 
 `pip-tools` regroups two utilities. The first generates a `requirements.txt` from a source, and the other takes the generated file and syncs the virtual environment to the described state. It fits well in the UNIX philosophy of one tool doing one thing and doing it well.
 
