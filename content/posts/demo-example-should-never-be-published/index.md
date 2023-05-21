@@ -1,10 +1,19 @@
 ---
 title: "Demo post"
-tags: []
+tags: [some tag, another tag]
 date: 2021-01-03T18:08:52.170212+00:00
 aliases: ["/example-should-never-be-published"]
 draft: true
 showtoc: true
+description: This is a demo post
+summary: Post summary
+weight: 1
+cover:
+  image: "32.png"
+  alt: "Docker logo"
+  caption: "This is a demo post"
+  relative: true
+  hidden: false
 ---
 This is a paragraph and should look like it. It is probably left align, not justified. After all, we're on the web not in a book.
 

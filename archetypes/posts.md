@@ -6,6 +6,7 @@ tags: []
 
 # Keep description short
 description: "Desc Text."
+summary: "Post summary"
 
 cover:
   image: "img url"
