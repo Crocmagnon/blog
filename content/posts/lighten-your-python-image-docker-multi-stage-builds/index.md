@@ -6,8 +6,8 @@ aliases: ["/lighten-your-python-image-docker-multi-stage-builds"]
 ---
 In previous posts we talked about [poetry][poetry] and [Docker images layers][docker-cache] and I promised I would write about Docker multi-stage builds, so here we go!
 
-[poetry]: /poetry-python-dependencies-management/
-[docker-cache]: /docker-images-layers-and-cache/
+[poetry]: {{< ref "poetry-python-dependencies-management" >}}
+[docker-cache]: {{< ref "docker-images-layers-and-cache" >}}
 
 !!! info "Note"
     I will explain the basics of Docker multi-stage builds required to understand the post but I won't repeat the documentation (see [further reading](#further-reading)).
