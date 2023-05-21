@@ -3,7 +3,9 @@
 {{ if eq $origImage.MediaType.SubType "svg" }}
     <img src="{{ $origImage.RelPermalink }}" alt='.Get "alt"'>
 {{ else }}
-    {{ $image := $origImage.Resize "720x" }}
+    {{ $resizeAdd := .Get "resizeAdd" | default "" }}
+    {{ $resize := printf "%s%s" (.Get "resize" | default "720x webp Lanczos ") $resizeAdd }}
+    {{ $image := $origImage.Resize $resize }}
     <a href="{{ $origImage.RelPermalink }}">
         <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt='.Get "alt"'>
     </a>

@@ -56,9 +56,9 @@ I was a bit worried about the resistance for the bottom pieces but they seem to 
 
 Here's what it looks like once mounted and plugged:
 
-{{< img src="6.jpeg" alt="Large view of my closet with the modem mounted on the wall" >}}
+{{< img src="6.jpeg" resizeAdd="r270" alt="Large view of my closet with the modem mounted on the wall" >}}
 
-{{< img src="5.jpeg" alt="Close view of my closet with the modem mounted on the wall" >}}
+{{< img src="5.jpeg" resizeAdd="r270" alt="Close view of my closet with the modem mounted on the wall" >}}
 
 I'm quite proud of this since it's one of my first "hardware" projects from start to finish and it looks quite gorgeous in that red plastic 😍
 
