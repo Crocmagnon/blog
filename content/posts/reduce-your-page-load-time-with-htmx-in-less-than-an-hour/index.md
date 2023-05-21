@@ -18,7 +18,7 @@ I'm working on a small cash register web app to help during events and reduce th
 
 This app also has a reporting section, where I'm generating graphs using matplotlib. Some graphs are heavy to produce, but they're only a portion of the full page. In the screenshot below, I've highlighted them:
 
-[![Checkout reports](42.png)](/attachments/42/original/)
+![Checkout reports](42.png)
 
 Initially, the page took about 6 to 7 seconds to fully load. Before that, nothing was displayed on screen.
 

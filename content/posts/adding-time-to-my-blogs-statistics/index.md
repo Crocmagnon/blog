@@ -4,7 +4,7 @@ tags: ['analytics', 'blog', 'self-hosting']
 date: 2020-06-15T16:27:27+00:00
 aliases: ["/adding-time-to-my-blogs-statistics"]
 ---
-[![Two Grafana graphs: one to view the raw view counts evolving, the other to display the difference between two data points](9.png)](/attachments/9/original/)
+![Two Grafana graphs: one to view the raw view counts evolving, the other to display the difference between two data points](9.png)
 
 Recently I added some statistics to my blog. I wanted to do that with minimum effort and without serving any crappy proprietary JavaScript to my users.
 
@@ -16,7 +16,7 @@ Recently I added some statistics to my blog. I wanted to do that with minimum ef
 
 My blog is powered by [WriteFreely](https://writefreely.org/), a free software written in Go. They already include a counter of views per page of my blog. This is nice, you can see the numbers in your admin interface so you can see which page works better than the others.
 
-[![My blog stats as displayed in WriteFreely writer interface](19.png)](/attachments/19/original/)
+![My blog stats as displayed in WriteFreely writer interface](19.png)
 
 The thing is, you don't have any notion of time. You can't differentiate a post which has made 1000 views in 3 days from another which has made 1000 views in 2 months.
 
@@ -162,7 +162,7 @@ I made two panels on my Grafana dashboard: one to view the raw view counts evolv
 
 Here are the two graphs in action:
 
-[![Two Grafana graphs: one to view the raw view counts evolving, the other to display the difference between two data points](9.png)](/attachments/9/original/)
+![Two Grafana graphs: one to view the raw view counts evolving, the other to display the difference between two data points](9.png)
 
 ## Allowing communication between devices
 

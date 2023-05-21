@@ -8,7 +8,7 @@ I participated in the [latest CodinGame challenge](https://www.codingame.com/mul
 
 #100DaysToOffload No. 7
 
-[![Cover picture for CodinGame Spring Challenge 2020. There is one yellow Pacman and one blue Pacman fighting against each other](2.jpg)](/attachments/2/original/)<!--more-->
+![Cover picture for CodinGame Spring Challenge 2020. There is one yellow Pacman and one blue Pacman fighting against each other](2.jpg)<!--more-->
 
 CodinGame is a coding platform on which you can solve puzzles by writing a program in the language of your choice. They also often host contests in which your code fights against that of other developers. The most matches you win, the most points you get. And the most points you get, the higher you climb on the leaderboard. I like to participate in these challenges, so I signed up for the latest one: CodinGame Spring Challenge 2020.
 
