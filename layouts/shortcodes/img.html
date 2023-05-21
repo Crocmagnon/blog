@@ -1,12 +1,12 @@
 {{ $src := .Get "src" }}
 {{ $origImage := .Page.Resources.GetMatch $src }}
 {{ if eq $origImage.MediaType.SubType "svg" }}
-    <img src="{{ $origImage.RelPermalink }}" alt='.Get "alt"'>
+    <img src="{{ $origImage.RelPermalink }}" alt='{{ .Get "alt" }}'>
 {{ else }}
     {{ $resizeAdd := .Get "resizeAdd" | default "" }}
     {{ $resize := printf "%s%s" (.Get "resize" | default "720x webp Lanczos ") $resizeAdd }}
     {{ $image := $origImage.Resize $resize }}
     <a href="{{ $origImage.RelPermalink }}">
-        <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt='.Get "alt"'>
+        <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt='{{ .Get "alt" }}'>
     </a>
 {{ end }}
