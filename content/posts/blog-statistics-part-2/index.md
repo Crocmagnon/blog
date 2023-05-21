@@ -4,12 +4,12 @@ tags: ['analytics', 'blog', 'self-hosting']
 date: 2020-06-26T15:34:46+00:00
 aliases: ["/blog-statistics-part-2"]
 ---
-In a [recent post](/adding-time-to-my-blogs-statistics), I talked about how I tracked my posts views over time using Grafana and InfluxDB.
+In a [recent post]({{< ref "adding-time-to-my-blogs-statistics" >}}), I talked about how I tracked my posts views over time using Grafana and InfluxDB.
 
 Today, I went another way and configured [GoAccess](http://goaccess.io/) to provide me with an HTML report with data extracted from my webserver's logs.
 
 !!! info "Update 2020-01-03"
-    I now use [my own blog platform](/blog-platform-update-quick-note/) with [Goatcounter](/about-me/#analytics).
+    I now use [my own blog platform]({{< ref "blog-platform-update-quick-note/" >}}) with [Goatcounter]({{< ref "about-me/#analytics" >}}).
 
 ![GoAccess Screenshot](8.png)
 

@@ -33,8 +33,8 @@ The piece looking like a U will be printed twice and will support the modem on t
 
 You can download them here:
 
-* [U shape (bottom)](/attachments/23/original/)
-* [S shape (top)](/attachments/24/original/)
+* [U shape (bottom)](23.stl)
+* [S shape (top)](24.stl)
 
 You can also find them [on Printables](https://www.printables.com/model/171644-support-mural-freebox-delta).
 

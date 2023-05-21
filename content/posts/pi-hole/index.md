@@ -17,7 +17,7 @@ As they advertise it, Pi Hole is "a black hole for internet advertisement". It's
 
 Again, I won't go into details of how to setup your own Pi Hole, there are plenty of good resources for that, starting with Pi Hole's own website. Just remember to setup your DHCP server to advertise your Pi Hole IP as the preferred DNS resolver, so that every device connected to your network can automatically benefit from it.
 
-I won't also explain how Pi Hole blocks your ads but if you'd like me to, please [let me know](/about-me).
+I won't also explain how Pi Hole blocks your ads but if you'd like me to, please [let me know]({{< ref "about-me" >}}).
 
 Today's quick post is about how great Pi Hole is, in a few bullet points:
 

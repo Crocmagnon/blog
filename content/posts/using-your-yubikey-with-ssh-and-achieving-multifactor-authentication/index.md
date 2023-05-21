@@ -4,7 +4,7 @@ tags: ['ssh', 'yubikey']
 date: 2020-05-18T19:07:08+00:00
 aliases: ["/using-your-yubikey-with-ssh-and-achieving-multifactor-authentication"]
 ---
-In my [introductory article](/im-starting-a-blog), I teased about using SSH with a YubiKey. Here's the post that expands on the idea.
+In my [introductory article]({{< ref "im-starting-a-blog" >}}), I teased about using SSH with a YubiKey. Here's the post that expands on the idea.
 
 ![YubiKeys](21.jpeg)
 As you can see, I *like* YubiKeys.
@@ -21,7 +21,7 @@ Second, it's portable. More than a laptop. You can even plug it in on a colleagu
 
 You can also generate/store your private encryption and signature keys for PGP on a YubiKey ([*Why have separate encryption subkey?*](https://security.stackexchange.com/questions/43590/pgp-why-have-separate-encryption-subkey), [*Improve the Security of Your OpenPGP Key by Using Subkeys*](http://www.connexer.com/articles/openpgp-subkeys)). That also requires you to plug in the key to decrypt/sign messages hence increasing the security of your setup.
 
-These are features I use every day: my key is plugged pretty much all day on my computer at work since I'm using PGP to sign my commits and SSH to push them on our shared git repo. That's also what I use to log into my [Raspberry Pi](/raspberry-pi) or this blog's host.
+These are features I use every day: my key is plugged pretty much all day on my computer at work since I'm using PGP to sign my commits and SSH to push them on our shared git repo. That's also what I use to log into my [Raspberry Pi]({{< ref "raspberry-pi" >}}) or this blog's host.
 
 One thing to keep in mind though is that if you lose your key and it's your only access to a remote machine, you may be screwed. Remember to always keep a backup access with an offline key[^1] or a good old keyboard & screen if you have physical access to your server!
 

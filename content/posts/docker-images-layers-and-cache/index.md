@@ -354,7 +354,7 @@ See how `python.tar.xz` is downloaded and then deleted all in the same step? Tha
 
 Well that wraps it up for today! It was quite technical but I hope you learned something along the way 🙂
 
-As always, please [contact me](/about-me#contact) if you have comments or questions!
+As always, please [contact me]({{< ref "about-me#contact" >}}) if you have comments or questions!
 
 ## 📚 Further reading
 * [About storage drivers (Docker docs)](https://docs.docker.com/storage/storagedriver/)

@@ -55,7 +55,7 @@ These two abilities can really change the course of a match so you'd better take
 
 Of course, not seeing the whole map means you have to keep a state between each turn to remember the position of the pellets you've already seen. That way, you can go back to them later if you don't see anything anymore.
 
-My code for this challenge is available on [Gitea](https://git.augendre.info/gaugendre/codingame/src/branch/master/challenges/2020-spring.py). It's written in Python, feel free to check it and drop me an [email](/about-me/) or a message on [Mastodon](/about-me/) if you have any question! It's not written in a very maintainable way since its expected life span was that of the contest, so 11 days. I could've spent more time refactoring stuff but *in this context* this would have likely been wasted time.
+My code for this challenge is available on [Gitea](https://git.augendre.info/gaugendre/codingame/src/branch/master/challenges/2020-spring.py). It's written in Python, feel free to check it and drop me an [email]({{< ref "about-me/" >}}) or a message on [Mastodon]({{< ref "about-me/" >}}) if you have any question! It's not written in a very maintainable way since its expected life span was that of the contest, so 11 days. I could've spent more time refactoring stuff but *in this context* this would have likely been wasted time.
 
 Basically, here's what I do:
 

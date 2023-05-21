@@ -6,7 +6,7 @@ aliases: ["/pip-tools-for-python-dependencies-management"]
 ---
 ## 📖 Story time
 
-At the end of 2020, I wrote an article entitled [Poetry for Python dependencies management](/poetry-python-dependencies-management). I described ITSF's requirements for a dependencies management system and how we found Poetry useful. After updating our internal projects, I tackled my side projects and moved them to Poetry.
+At the end of 2020, I wrote an article entitled [Poetry for Python dependencies management]({{< ref "poetry-python-dependencies-management" >}}). I described ITSF's requirements for a dependencies management system and how we found Poetry useful. After updating our internal projects, I tackled my side projects and moved them to Poetry.
 
 The requirements from late 2020 were the following:
 

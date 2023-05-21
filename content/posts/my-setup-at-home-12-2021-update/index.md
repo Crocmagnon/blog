@@ -4,7 +4,7 @@ tags: ['devices', 'self-hosting']
 date: 2021-12-28T09:33:00.205309+00:00
 aliases: ["/my-setup-at-home-12-2021-update"]
 ---
-In this post, I'm presenting my updated setup at home. The [previous version](/my-setup-at-home/) was from May 2020.
+In this post, I'm presenting my updated setup at home. The [previous version]({{< ref "my-setup-at-home/" >}}) was from May 2020.
 
 ## 👨🏻‍💻 Desk
 
@@ -42,7 +42,7 @@ In this post, I'm presenting my updated setup at home. The [previous version](/m
     * Home Assistant
 * Raspberry Pi 3 model B+
     * display for Home Assistant in the hall
-* [Self-built server](/replacing-my-synology-nas-with-a-self-built-server/)
+* [Self-built server]({{< ref "replacing-my-synology-nas-with-a-self-built-server/" >}})
     * proxmox with one VM (for the moment)
     * host all my services in docker containers
 

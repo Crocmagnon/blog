@@ -30,15 +30,15 @@ At first I considered writing on write.as directly but I would have had to pay f
 
 I already have a list of topics I'd like to share:
 
-* My home setup ([Raspberry Pi](/raspberry-pi), [Synology NAS](/synology-nas-stream-and-backup))
+* My home setup ([Raspberry Pi]({{< ref "raspberry-pi" >}}), [Synology NAS]({{< ref "synology-nas-stream-and-backup" >}}))
 * Home Assistant
-* [Pi Hole](/pi-hole)
-* [SSH & Yubikeys](/using-your-yubikey-with-ssh-and-achieving-multifactor-authentication)
-* Some projects ([CodinGame](/codingame-spring-challenge-2020-pacman))
+* [Pi Hole]({{< ref "pi-hole" >}})
+* [SSH & Yubikeys]({{< ref "using-your-yubikey-with-ssh-and-achieving-multifactor-authentication" >}})
+* Some projects ([CodinGame]({{< ref "codingame-spring-challenge-2020-pacman" >}}))
 
 ## Where to reach me
 
-Up-to-date info should appear on the [About me](/about-me) page on this site.
+Up-to-date info should appear on the [About me]({{< ref "about-me" >}}) page on this site.
 
 Any feedback is highly appreciated!
 

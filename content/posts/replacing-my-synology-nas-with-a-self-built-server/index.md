@@ -7,7 +7,7 @@ aliases: ["/replacing-my-synology-nas-with-a-self-built-server"]
 !!! info "👴 Old post"
     I don't use TrueNAS anymore but I still have this machine and I even upgraded the RAM to a more comfortable 56GB.
 
-A few weeks ago, I replaced my trusty [Synology DS216play](/synology-nas-stream-and-backup/) with a more powerful station that I built myself. I hadn't built a computer in a long time and it was a lot of fun!
+A few weeks ago, I replaced my trusty [Synology DS216play]({{< ref "synology-nas-stream-and-backup/" >}}) with a more powerful station that I built myself. I hadn't built a computer in a long time and it was a lot of fun!
 
 ![TrueNAS Logo](26.svg)<!--more-->
 
@@ -54,15 +54,15 @@ My current setup includes:
     * NextCloud
     * miniflux (moved from my Raspberry Pi)
     * postgresql
-    * [cleantoots](/cleantoots-clean-your-toot-history/)
+    * [cleantoots]({{< ref "cleantoots-clean-your-toot-history/" >}})
     * Deluge
     * Plex
 * A VM with some Docker services:
     * This blog (migrated from the VPS)
     * Collabora Online server (provides online collaboration on LibreOffice/Microsoft Office documents in NextCloud)
-    * [Plausible Analytics](/about-me/#analytics)
+    * [Plausible Analytics]({{< ref "about-me/#analytics" >}})
 
 The Raspberry Pi still runs Home Assistant but I disabled InfluxDB and Grafana since I didn't use them. The VPS is shut down and I plan on deleting it by the end of the month since I don't need it anymore.
 
 ## Closing thoughts
-I'm really happy with this setup! I don't know yet what I'm going to do with my new NextCloud though. I tried NextCloud talk but I couldn't get it working properly for video calls. I might replace pCloud (I have a lifetime 2To plan) and use it as a backup service, who knows! If you have suggestions, please feel free to [contact me](/about-me/). 😀
+I'm really happy with this setup! I don't know yet what I'm going to do with my new NextCloud though. I tried NextCloud talk but I couldn't get it working properly for video calls. I might replace pCloud (I have a lifetime 2To plan) and use it as a backup service, who knows! If you have suggestions, please feel free to [contact me]({{< ref "about-me/" >}}). 😀

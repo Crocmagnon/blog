@@ -21,11 +21,11 @@ Let's try not to forget anything:
     * note-taking, annotating documents, sketching
     * accessing my recipes (I use [Paprika](https://www.paprikaapp.com/))
     * writing, sometimes
-* [Raspberry Pi 3 model B+](/raspberry-pi)
-    * [Pi-Hole](/pi-hole)
+* [Raspberry Pi 3 model B+]({{< ref "raspberry-pi" >}})
+    * [Pi-Hole]({{< ref "pi-hole" >}})
     * Home Assistant*
     * Monitoring of the other things*
-* [Synology NAS](/synology-nas-stream-and-backup) (DS216play)*
+* [Synology NAS]({{< ref "synology-nas-stream-and-backup" >}}) (DS216play)*
     * Backups (personal laptop and Raspberry Pi)
     * Plex
 * "smart" TV

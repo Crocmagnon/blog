@@ -47,7 +47,7 @@ Of course these aren't the only measures you should take to protect your machine
 I run a couple of services on my Pi:
 
 * [Home Assistant](https://home-assistant.io/)
-* [Pi Hole](/pi-hole)
+* [Pi Hole]({{< ref "pi-hole" >}})
 * Monitoring (InfluxDB & Grafana)
 
 I currently use the hosted version of [Miniflux](https://miniflux.app/) but I plan to migrate it to my Pi someday.
@@ -57,7 +57,7 @@ I will talk in more details of all these services in later articles, for now I'l
 ## Backup scripts
 At last, the need to have some backup strategy arises when you start to run more than just a couple of scripts on your server. In my case, I realized this when I started to rely on Home Assistant for my home automation system.
 
-As promised in [the article about my Synology NAS and the backups](/synology-nas-stream-and-backup), here is the script I use to regularly backup my Raspberry Pi important files. This is the Home Assistant version, the other script is nearly identical except for the files included in the zip archive.
+As promised in [the article about my Synology NAS and the backups]({{< ref "synology-nas-stream-and-backup" >}}), here is the script I use to regularly backup my Raspberry Pi important files. This is the Home Assistant version, the other script is nearly identical except for the files included in the zip archive.
 
 ```{ .bash .large }
 #!/bin/bash

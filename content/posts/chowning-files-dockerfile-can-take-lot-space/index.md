@@ -7,7 +7,7 @@ aliases: ["/chowning-files-dockerfile-can-take-lot-space"]
 Today I learned that recursively changing the owner of a directory tree in a Dockerfile can result in some serious increase in image size.
 
 ## 🚛 The issue
-You may remember how in a [previous post](/docker-images-layers-and-cache/) we used a small example to discuss layers and final image size. Well, here's our example again, slightly modified.
+You may remember how in a [previous post]({{< ref "docker-images-layers-and-cache/" >}}) we used a small example to discuss layers and final image size. Well, here's our example again, slightly modified.
 
 ```Dockerfile hl_lines="5"
 # Dockerfile
@@ -70,7 +70,7 @@ In the specific case I was investigating at [ITSF](https://itsf.io), the image w
     Of course this also works with "simple" `COPY` and `ADD` instructions. It's not reserved to copying files from other stages.
 
 ## 📓 Don't forget history!
-I discovered that the `chown` was taking that much space using the underrated `docker history` command. I already briefly [introduced](/docker-images-layers-and-cache/#cache-invalidation) it previously but now felt like a good time to remind you of its existence 🙂
+I discovered that the `chown` was taking that much space using the underrated `docker history` command. I already briefly [introduced]({{< ref "docker-images-layers-and-cache/#cache-invalidation" >}}) it previously but now felt like a good time to remind you of its existence 🙂
 
 Running it with our big 492MB image, here's the output:
 

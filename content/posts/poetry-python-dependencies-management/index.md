@@ -107,10 +107,10 @@ Unfortunately, it sometimes marks some packages as transitive dependencies when 
 
 I've been personally very satisfied with this transition to poetry on the projects I maintain. It was a bit of work to make the switch but so far I've only been enjoying benefits.
 
-The setup in a Docker image is also quite straightforward if you accept to have poetry in your final image. If you prefer to have lightweight images, you can use multi-stage builds to install your dependencies in a first stage and retrieve the virtualenv containing only your project's dependencies in a later one. If you're interested, check out [this article](/lighten-your-python-image-docker-multi-stage-builds) I wrote on the subject!
+The setup in a Docker image is also quite straightforward if you accept to have poetry in your final image. If you prefer to have lightweight images, you can use multi-stage builds to install your dependencies in a first stage and retrieve the virtualenv containing only your project's dependencies in a later one. If you're interested, check out [this article]({{< ref "lighten-your-python-image-docker-multi-stage-builds" >}}) I wrote on the subject!
 
 ## 🗒 Closing thoughts
 
 Poetry is very **pleasant** to work with and we feel **safer** adding dependencies, knowing that there won't be any surprise conflict after the installation. We can also easily **build and publish** packages for internal use with the same tool, it's just a new command to learn.
 
-Anyway, I hope you learned something in this post about our experience with poetry! As always, please [contact me](/about-me#contact) if you have comments or questions!
+Anyway, I hope you learned something in this post about our experience with poetry! As always, please [contact me]({{< ref "about-me#contact" >}}) if you have comments or questions!
