@@ -1,1 +1,2 @@
-<link rel="stylesheet" href="/admonitions.css">
+{{ $admonitions := resources.Get "css/admonitions.css" }}
+<link rel="stylesheet" href="{{ $admonitions.Permalink }}">
