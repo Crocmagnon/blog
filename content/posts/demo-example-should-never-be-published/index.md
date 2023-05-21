@@ -73,8 +73,8 @@ This should be an image:
   <p>Some text. 🙂</p>
 </details>
 
-| Heading 1 | Heading 2 |
-|-----------|-----------|
+| Heading 1    | Heading 2    |
+|--------------|--------------|
 | Table item 1 | Table item 2 |
 | Table item 1 | Table item 2 |
 | Table item 1 | Table item 2 |
