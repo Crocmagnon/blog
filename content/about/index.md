@@ -39,14 +39,6 @@ I'm Gabriel, a Go and Python software developer at [OVHcloud](https://www.ovhclo
 </p>
 {{< /unsafe >}}
 
-## Where to find me {#contact}
-
-| Code                                          | Contact                                                            |
-|-----------------------------------------------|--------------------------------------------------------------------|
-| [Gitea](https://git.augendre.info/gaugendre)  | <a rel="me" href="https://fosstodon.org/@Crocmagnon">Mastodon</a>  |
-| [GitHub](https://github.com/Crocmagnon)       | <a href="mailto:ga-contact@augendre.info">Email</a>                |
-| [GitLab](https://gitlab.com/gaugendre)        |                                                                    |
-
 My resume is available as [a pdf](https://cv-gabriel.augendre.info) (in French) if you want to take a look.
 
 ## Analytics

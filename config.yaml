@@ -61,16 +61,20 @@ params:
       My take on tech related subjects (but not only)
 
   socialIcons:
-    - name: email
+    - name: Email
       url: "mailto:ga-blog@augendre.info"
-    - name: github
-      url: "https://github.com/Crocmagnon"
-    - name: cv
-      url: "https://cv-gabriel.augendre.info"
-    - name: stackoverflow
-      url: "https://stackoverflow.com/users/2758732/gabriel"
-    - name: mastodon
+    - name: Mastodon
       url: "https://fosstodon.org/@Crocmagnon"
+    - name: GitHub
+      url: "https://github.com/Crocmagnon"
+    - name: Gitea
+      url: "https://git.augendre.info/gaugendre"
+    - name: GitLab
+      url: "https://gitlab.com/gaugendre"
+    - name: CV
+      url: "https://cv-gabriel.augendre.info"
+    - name: StackOverflow
+      url: "https://stackoverflow.com/users/2758732/gabriel"
 
   cover:
     hidden: true # hide everywhere but not in structured data
