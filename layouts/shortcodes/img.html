@@ -9,6 +9,6 @@
     {{ $resize := printf "%s%s" (.Get "resize" | default "720x webp Lanczos ") $resizeAdd }}
     {{ $image := $origImage.Resize $resize }}
     <a href="{{ $origImage.RelPermalink }}">
-        <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt='{{ .Get "alt" }}'>
+        <img src="{{ $image.RelPermalink }}" alt='{{ .Get "alt" }}'>
     </a>
 {{ end }}
