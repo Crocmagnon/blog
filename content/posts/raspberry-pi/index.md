@@ -3,6 +3,7 @@ title: "Raspberry Pi"
 tags: ['Raspberry Pi', 'backup', 'monitoring', 'self-hosting']
 date: 2020-05-16T14:43:38+00:00
 aliases: ["/raspberry-pi"]
+canonicalURL: "/raspberry-pi"
 ---
 {{< note class="info" title="👴 Old post" >}}
 This post has grown old and I now don't use my Raspberry Pi like this anymore.

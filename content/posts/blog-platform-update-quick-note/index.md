@@ -3,6 +3,7 @@ title: "Blog platform update - Quick note"
 tags: ['blog', 'self-hosting']
 date: 2020-08-17T15:45:55+00:00
 aliases: ["/blog-platform-update-quick-note"]
+canonicalURL: "/blog-platform-update-quick-note"
 ---
 I just moved from Writefreely to a custom made blog engine. Writefreely is great but I wanted more control over every bit of the template and style and I couldn't easily achieve what I wanted.
 

@@ -3,6 +3,7 @@ title: "pip-tools for Python dependencies management"
 tags: ['dependencies', 'pip-tools', 'python']
 date: 2023-03-02T13:07:26.381756+00:00
 aliases: ["/pip-tools-for-python-dependencies-management"]
+canonicalURL: "/pip-tools-for-python-dependencies-management"
 description: "Here's how and why I use pip-tools for my side-projects."
 summary: "Here's how and why I use pip-tools for my side-projects."
 ---

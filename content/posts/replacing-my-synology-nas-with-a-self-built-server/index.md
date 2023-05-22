@@ -3,6 +3,7 @@ title: "Replacing my Synology NAS with a self-built server"
 tags: ['FreeBSD', 'FreeNAS', 'NAS', 'TrueNAS', 'self-hosting', 'server']
 date: 2020-11-11T12:31:38.826817+00:00
 aliases: ["/replacing-my-synology-nas-with-a-self-built-server"]
+canonicalURL: "/replacing-my-synology-nas-with-a-self-built-server"
 ---
 {{< note class="info" title="👴 Old post" >}}
 I don't use TrueNAS anymore but I still have this machine and I even upgraded the RAM to a more comfortable 56GB.

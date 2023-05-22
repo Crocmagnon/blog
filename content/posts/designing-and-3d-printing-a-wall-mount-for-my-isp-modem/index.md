@@ -3,6 +3,7 @@ title: "Designing and 3D Printing a Wall Mount for my ISP Modem"
 tags: ['3D printing', 'CAD', 'FreeCAD', 'Freebox', 'wall mounting']
 date: 2020-08-13T21:38:37+00:00
 aliases: ["/designing-and-3d-printing-a-wall-mount-for-my-isp-modem"]
+canonicalURL: "/designing-and-3d-printing-a-wall-mount-for-my-isp-modem"
 ---
 I recently moved to a new apartment and now I have a little closet which contains the electrical board. It's also where the optical fiber comes in and so it's where I put my ISP-provided modem.
 

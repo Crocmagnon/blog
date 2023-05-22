@@ -3,6 +3,7 @@ title: "My Setup at Home"
 tags: ['self-hosting']
 date: 2020-05-13T11:32:31+00:00
 aliases: ["/my-setup-at-home"]
+canonicalURL: "/my-setup-at-home"
 ---
 This post will serve as an introduction to others that will follow. I will try to remember to update this publication to add a reference to the new ones but I can't promise I won't forget. Meanwhile, feel free to use the tags at the end to scroll through related articles.
 

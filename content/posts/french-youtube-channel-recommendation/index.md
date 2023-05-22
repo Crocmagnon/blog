@@ -3,6 +3,7 @@ title: "Chat Sceptique (French YouTube Channel)"
 tags: []
 date: 2020-06-21T10:18:08.406375+00:00
 aliases: ["/french-youtube-channel-recommendation"]
+canonicalURL: "/french-youtube-channel-recommendation"
 ---
 Today's very quick post is a recommendation to a french YouTube channel. It's called [Chat Sceptique](https://www.youtube.com/channel/UCOuIgj0CYCXCvjWywjDbauw) and features a statistician popularizing many different topics related to statistics.
 

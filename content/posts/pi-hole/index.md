@@ -3,6 +3,7 @@ title: "Pi Hole"
 tags: ['DNS', 'Raspberry Pi', 'self-hosting']
 date: 2020-05-28T15:54:13+00:00
 aliases: ["/pi-hole"]
+canonicalURL: "/pi-hole"
 ---
 {{< note class="info" title="👴 Old post" >}}
 I don't use Pi Hole anymore but this post should still be relevant. I've switched to [AdGuard](https://adguard.com/en/welcome.html). There is an easy to install Home Assistant addon available and it allows me to easily configure local-only DNS entries.

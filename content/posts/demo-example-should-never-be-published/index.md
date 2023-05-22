@@ -3,6 +3,7 @@ title: "Demo post"
 tags: [some tag, another tag]
 date: 2021-01-03T18:08:52.170212+00:00
 aliases: ["/example-should-never-be-published"]
+canonicalURL: "/example-should-never-be-published"
 draft: true
 showtoc: true
 description: This is a demo post

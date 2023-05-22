@@ -3,6 +3,7 @@ title: "Blog Statistics, Part 2"
 tags: ['analytics', 'blog', 'self-hosting']
 date: 2020-06-26T15:34:46+00:00
 aliases: ["/blog-statistics-part-2"]
+canonicalURL: "/blog-statistics-part-2"
 ---
 In a [recent post]({{< ref "adding-time-to-my-blogs-statistics" >}}), I talked about how I tracked my posts views over time using Grafana and InfluxDB.
 

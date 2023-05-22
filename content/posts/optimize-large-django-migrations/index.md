@@ -3,6 +3,7 @@ title: "Optimize large Django migrations"
 tags: ['Django', 'ITSF', 'python']
 date: 2022-03-31T19:50:35.048724+00:00
 aliases: ["/optimize-large-django-migrations"]
+canonicalURL: "/optimize-large-django-migrations"
 summary: Sometimes more is less.
 description: Sometimes more is less.
 ---

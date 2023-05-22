@@ -3,6 +3,7 @@ title: "I'm starting a blog"
 tags: ['blog', 'introduction']
 date: 2020-05-12T10:39:41.193174+00:00
 aliases: ["/im-starting-a-blog"]
+canonicalURL: "/im-starting-a-blog"
 ---
 I came up across two posts recently that got me thinking:
 

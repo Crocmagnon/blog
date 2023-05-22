@@ -3,6 +3,7 @@ title: "Using Your YubiKey With SSH and Achieving Multifactor Authentication"
 tags: ['ssh', 'yubikey']
 date: 2020-05-18T19:07:08+00:00
 aliases: ["/using-your-yubikey-with-ssh-and-achieving-multifactor-authentication"]
+canonicalURL: "/using-your-yubikey-with-ssh-and-achieving-multifactor-authentication"
 ---
 In my [introductory article]({{< ref "im-starting-a-blog" >}}), I teased about using SSH with a YubiKey. Here's the post that expands on the idea.
 

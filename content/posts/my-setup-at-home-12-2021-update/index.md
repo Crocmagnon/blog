@@ -3,6 +3,7 @@ title: "My Setup at Home (12/2021 update)"
 tags: ['devices', 'self-hosting']
 date: 2021-12-28T09:33:00.205309+00:00
 aliases: ["/my-setup-at-home-12-2021-update"]
+canonicalURL: "/my-setup-at-home-12-2021-update"
 summary: Here's the tech I use at home and what for.
 ---
 In this post, I'm presenting my updated setup at home. The [previous version]({{< ref "my-setup-at-home/" >}}) was from May 2020.

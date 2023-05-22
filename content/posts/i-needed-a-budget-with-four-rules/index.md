@@ -3,6 +3,7 @@ title: "I Needed a Budget, With Four Rules"
 tags: ['YNAB', 'budgeting', 'four rules', 'personal finances']
 date: 2020-06-25T16:05:51+00:00
 aliases: ["/i-needed-a-budget-with-four-rules"]
+canonicalURL: "/i-needed-a-budget-with-four-rules"
 ---
 In January 2020, I discovered a budget app called You Need A Budget ([YNAB](https://youneedabudget.com/)). I've been using it since then and I'm very happy with it, here's why.
 

@@ -3,6 +3,7 @@ title: "Chowning files can take a lot of space in a Docker image"
 tags: ['Docker', 'ITSF', 'chown', 'history', 'layer', 'multi-stage builds']
 date: 2021-03-02T16:21:06.172437+00:00
 aliases: ["/chowning-files-dockerfile-can-take-lot-space"]
+canonicalURL: "/chowning-files-dockerfile-can-take-lot-space"
 ---
 Today I learned that recursively changing the owner of a directory tree in a Dockerfile can result in some serious increase in image size.
 

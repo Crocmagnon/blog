@@ -3,6 +3,7 @@ title: "YouTube on Apple TV"
 tags: ['apple tv', 'homepod', 'rant', 'youtube']
 date: 2020-05-15T11:22:59+00:00
 aliases: ["/youtube-on-apple-tv"]
+canonicalURL: "/youtube-on-apple-tv"
 ---
 Today's post will mostly be me ranting about the YouTube app on Apple TV.<!--more--> See, I have a pretty typical Apple user setup for my TV (and as you'll maybe learn in future posts, it's not only for the TV). I have:
 

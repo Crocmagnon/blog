@@ -3,6 +3,7 @@ title: "Automate bug findings with git"
 tags: ['bisect', 'bugs', 'git']
 date: 2021-12-22T22:08:07.191735+00:00
 aliases: ["/automate-bug-findings-with-git"]
+canonicalURL: "/automate-bug-findings-with-git"
 ---
 ## 🔍 Git bisect
 

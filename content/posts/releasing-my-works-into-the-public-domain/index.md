@@ -3,6 +3,7 @@ title: "Releasing my works into the public domain"
 tags: ['commons', 'free software', 'licensing']
 date: 2022-01-02T15:40:02.921181+00:00
 aliases: ["/releasing-my-works-into-the-public-domain"]
+canonicalURL: "/releasing-my-works-into-the-public-domain"
 summary: All my existing software projects and the articles in this blog have been released into the public domain.
 ---
 ## Context

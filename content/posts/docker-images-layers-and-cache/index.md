@@ -3,6 +3,7 @@ title: "Docker images layers and cache"
 tags: ['Docker', 'cache', 'layer']
 date: 2020-12-28T07:55:41.393608+00:00
 aliases: ["/docker-images-layers-and-cache"]
+canonicalURL: "/docker-images-layers-and-cache"
 ---
 In this post, we'll walk through Docker image layers and the caching around them from the point of view of a Docker user. I'll assume you're already familiar with Dockerfiles and Docker concepts in general.
 

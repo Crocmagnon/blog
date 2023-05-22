@@ -3,6 +3,7 @@ title: "Synology NAS: Stream & Backup"
 tags: ['NAS', 'Plex', 'Raspberry Pi', 'Synology', 'backup', 'self-hosting', 'streaming', 'time machine']
 date: 2020-05-14T05:46:00+00:00
 aliases: ["/synology-nas-stream-and-backup"]
+canonicalURL: "/synology-nas-stream-and-backup"
 ---
 This is the third issue of my #100DaysToOffload
 

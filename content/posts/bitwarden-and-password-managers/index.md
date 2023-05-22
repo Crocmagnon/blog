@@ -3,6 +3,7 @@ title: "Bitwarden and Password Managers"
 tags: ['free software', 'passwords', 'passwords manager']
 date: 2020-06-05T15:10:47+00:00
 aliases: ["/bitwarden-and-password-managers"]
+canonicalURL: "/bitwarden-and-password-managers"
 ---
 [TL;DR](https://en.wiktionary.org/wiki/tl;dr): I use a password manager and you should too. [Bitwarden](http://bitwarden.com/) is a Free Software alternative.
 

@@ -3,6 +3,7 @@ title: "How to subscribe"
 tags: []
 date: 2020-05-14T10:18:31+00:00
 aliases: ["/how-to-subscribe"]
+canonicalURL: "/how-to-subscribe"
 ---
 This blog offers an [RSS](https://en.wikipedia.org/wiki/RSS) feed.
 

@@ -3,6 +3,7 @@ title: "Adding Time to my Blog's Statistics"
 tags: ['analytics', 'blog', 'self-hosting']
 date: 2020-06-15T16:27:27+00:00
 aliases: ["/adding-time-to-my-blogs-statistics"]
+canonicalURL: "/adding-time-to-my-blogs-statistics"
 ---
 {{< img src="9.png" alt="Two Grafana graphs: one to view the raw view counts evolving, the other to display the difference between two data points" >}}
 

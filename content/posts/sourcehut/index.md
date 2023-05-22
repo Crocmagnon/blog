@@ -3,6 +3,7 @@ title: "Sourcehut"
 tags: ['GitHub alternative', 'git', 'software forge']
 date: 2020-07-01T20:26:41+00:00
 aliases: ["/sourcehut"]
+canonicalURL: "/sourcehut"
 ---
 {{< note class="info" title="🧓🏻 Old post" >}}
 This post is quite old now. Since then, I've moved my git repositories to a self-hosted [gitea](https://gitea.io/) instance and I cancelled my subscription. I still stand behind this post though. Sourcehut is a solid git forge and keeps improving.

@@ -3,6 +3,7 @@ title: "CodinGame Spring Challenge 2020 - Pacman"
 tags: ['challenge', 'codingame', 'programming']
 date: 2020-05-21T19:13:49+00:00
 aliases: ["/codingame-spring-challenge-2020-pacman"]
+canonicalURL: "/codingame-spring-challenge-2020-pacman"
 ---
 I participated in the [latest CodinGame challenge](https://www.codingame.com/multiplayer/bot-programming/spring-challenge-2020) and quickly got out of the beginner's league. In this article, I'll explain my approach.
 

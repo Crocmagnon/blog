@@ -2,6 +2,7 @@
 title: "To a new adventure!"
 date: 2023-03-24T11:01:05.142656+00:00
 aliases: ["/to-a-new-adventure"]
+canonicalURL: "/to-a-new-adventure"
 tags: ['Career', 'OVH', 'OVHcloud', 'Work']
 
 # Keep them short

@@ -3,6 +3,7 @@ title: "Cleantoots - Clean Your Toot History"
 tags: ['cleanup', 'history', 'mastodon', 'toots']
 date: 2020-05-25T17:08:28+00:00
 aliases: ["/cleantoots-clean-your-toot-history"]
+canonicalURL: "/cleantoots-clean-your-toot-history"
 ---
 Since I consider my messages on social media to be valid at the moment they're posted, I like to have them deleted after some time. When I still used Twitter, I also used a CLI tool called [cleantweets](https://github.com/magnusnissel/cleantweets) that helped with this.
 

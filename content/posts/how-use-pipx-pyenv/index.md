@@ -3,6 +3,7 @@ title: "How to use pipx with pyenv"
 tags: ['pipx', 'pyenv', 'python']
 date: 2020-12-30T08:40:58.362871+00:00
 aliases: ["/how-use-pipx-pyenv"]
+canonicalURL: "/how-use-pipx-pyenv"
 ---
 ## 👨🏻‍💻 TL;DR
 
