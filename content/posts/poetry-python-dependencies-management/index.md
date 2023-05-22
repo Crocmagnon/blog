@@ -4,6 +4,15 @@ tags: ['ITSF', 'dependencies', 'poetry', 'python']
 date: 2020-12-30T20:44:05.549630+00:00
 aliases: ["/poetry-python-dependencies-management"]
 canonicalURL: "/poetry-python-dependencies-management"
+custom_css: >-
+    .svg-container {
+        float: right;
+    }
+    .svg-container img {
+        max-height: 200px;
+        max-width: 200px;
+        width: 200px;
+    }
 ---
 At [ITSF](https://itsf.io), teams using the same languages/frameworks regularly meet to share experience and decide on common guidelines. With the Python teams, we recently decided to change our dependencies management system to something more robust because we were not satisfied with `pip` alone.
 
@@ -37,8 +46,11 @@ Among them, only poetry ticks all the boxes. pip-tools and pipenv don't have fea
 
 ### Version constraints
 
+{{< unsafe >}}
+<p class="svg-container">
 {{< img src="35.svg" alt="Poetry logo" >}}
-
+</p>
+{{< /unsafe >}}
 
 Poetry lets you specify your direct dependencies in a standard file called `pyproject.toml`. You can either edit this file manually or use the `poetry` command line tool.
 
