@@ -1,6 +1,6 @@
 ---
 title: "About me"
-tags: ['Gabriel Augendre', 'blog', 'homepage']
+tags: ['Gabriel Augendre', 'Gabriel', 'Augendre', 'blog', 'homepage']
 date: 2020-05-12T11:29:02+00:00
 ShowBreadCrumbs: false
 hidemeta: true
