@@ -18,7 +18,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "Gab’s Notes"
   description: "My take on tech-related subjects (but not only)."
-  keywords: [blog, tech, docker, golang, python, self-hosting]
+  keywords: [blog, Gabriel, Augendre, tech, docker, golang, python, self-hosting]
 #  author: "Gabriel Augendre"
   images: ["img/portrait.jpg"]
   DateFormat: "2006-01-02"
