@@ -28,9 +28,9 @@ func main() {
 ```Dockerfile
 # Dockerfile
 FROM golang:alpine as builder
-RUN mkdir /build 
+RUN mkdir /build
 ADD . /build/
-WORKDIR /build 
+WORKDIR /build
 RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -ldflags '-extldflags "-static"' -o main .
 
 FROM scratch
@@ -197,7 +197,7 @@ CMD ["/app/docker/run.sh"]
 
 There are not much differences between this and the previous one, except for an added stage to retrieve the git commit hash and some tweaking when copying the code.
 
-There is also the addition of the `POETRY_OPTIONS` build argument. It allows me to build the same Dockerfile with two different outputs: one with the development dependencies like `pytest` or `pre-commit` and the other without. 
+There is also the addition of the `POETRY_OPTIONS` build argument. It allows me to build the same Dockerfile with two different outputs: one with the development dependencies like `pytest` or `pre-commit` and the other without.
 
 I use it like this:
 

@@ -8,4 +8,3 @@ git clone git@github.com:Crocmagnon/blog.git
 cd blog
 git submodule update --init --recursive
 ```
-

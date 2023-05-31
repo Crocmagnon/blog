@@ -1,14 +1,14 @@
 #reply {
-    text-align: center;
-    margin-top: 2em;
+  text-align: center;
+  margin-top: 2em;
 }
 #reply a button {
-    font-size: 1.2rem;
-    padding: 8px 16px;
+  font-size: 1.2rem;
+  padding: 8px 16px;
 }
 a button {
-    background: #0069e5;
-    color: #fff;
-    border-radius: 4px;
-    box-sizing: border-box;
+  background: #0069e5;
+  color: #fff;
+  border-radius: 4px;
+  box-sizing: border-box;
 }

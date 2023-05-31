@@ -50,7 +50,7 @@ I also tried reviewing some code since it's a big part of collaboration around s
 
 At first I found it a bit hard since there's no guidance in the web UI. But once you understand that you can do that via email, then everything falls into place.
 
-You just need to reply to the email you received when the contributor sent the patch. You can even add inline comments and they'll be shown inline in the web UI. See an example of such discussion [here](https://lists.sr.ht/~sircmpwn/email-test-drive/patches/10576). 
+You just need to reply to the email you received when the contributor sent the patch. You can even add inline comments and they'll be shown inline in the web UI. See an example of such discussion [here](https://lists.sr.ht/~sircmpwn/email-test-drive/patches/10576).
 
 I found that to be very clever, though there is still room for improvement. Especially on the docs or UI to guide people.
 
@@ -64,7 +64,7 @@ Their business model is based on paid users. They [don't have any investors](htt
 
 So if you just want an account to use the web UI to publish issues for example, you won't have to pay. But as I said, you don't even need an account for that: you can use email! You would need an account to get write access to any repository or read access to private repos though.
 
-During the alpha you don't need to pay but I figured it would be a nice way to contribute to the free and open source software environment so I decided to subscribe. 
+During the alpha you don't need to pay but I figured it would be a nice way to contribute to the free and open source software environment so I decided to subscribe.
 
 ## CI / Builds
 I also wanted to talk a bit about their CI system. It's as simple as writing a YAML file (called a manifest) and submitting it either through the API or using a web form.

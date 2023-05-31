@@ -36,4 +36,3 @@ Here are some links (in alphabetical order) so you can check their work:
 * [Smartfire](https://www.smartfire.pro/) - small tech agency
 
 Anyway, I'm really excited to start my new job! Wish me luck 😊
-

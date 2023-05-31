@@ -30,7 +30,7 @@ I still believe that users should be treated as first-party when building softwa
 * The freedom to study how the program works, and change it so it does your computing as you wish. Access to the source code is a precondition for this.
 * The freedom to redistribute copies so you can help others.
 * The freedom to distribute copies of your modified versions to others. By doing this you can give the whole community a chance to benefit from your changes. Access to the source code is a precondition for this.
-> 
+>
 > \- *The Free Software Foundation*
 
 And to me, releasing my works in the public domain is the easiest and most comprehensible way of giving these freedoms to my users. Of course this doesn't ensure that all derivatives will be released under the same terms, but frankly I think I don't care.

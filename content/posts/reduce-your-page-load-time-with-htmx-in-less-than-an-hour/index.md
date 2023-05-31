@@ -10,7 +10,7 @@ summary: HTMX is a wonderful piece of technology for backend developers who don'
 During DjangoCon EU 2022, a talk reminded me of [htmx](https://htmx.org/). As the authors put it:
 
 > Htmx is a library that allows you to access modern browser features directly from HTML, rather than using javascript.
-> 
+>
 > \- [htmx docs](https://htmx.org/docs/#introduction)
 
 Since I really don't like javascript that much, this promise is very tempting to me&nbsp;😁

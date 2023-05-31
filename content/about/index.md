@@ -10,7 +10,7 @@ custom_css: >-
         justify-content: space-evenly;
         flex-wrap: wrap;
     }
-  
+
     .pictures a {
         box-shadow: 0 0;
     }
