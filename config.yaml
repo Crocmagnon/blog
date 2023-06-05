@@ -43,6 +43,9 @@ params:
   showtoc: false
   tocopen: false
 
+  schema:
+    publisherType: 'Person'
+
   assets:
     disableHLJS: true
     theme_color: "#ffffff"

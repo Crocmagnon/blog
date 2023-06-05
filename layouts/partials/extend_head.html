@@ -1,3 +1,6 @@
 {{ if .Params.custom_css }}
 <style>{{ .Params.custom_css | safeCSS }}</style>
 {{ end }}
+{{ if hugo.IsProduction }}
+<link rel="preconnect" href="https://gc.gabnotes.org">
+{{ end }}
