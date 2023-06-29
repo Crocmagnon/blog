@@ -31,7 +31,7 @@
   background-color: var(--nc-bg-2);
   box-shadow: 0 0 8px -1px var(--nc-bg-3);
   border: 1px solid var(--nc-bg-3);
-  padding: 1ex;
+  padding: 1ex 1.5ex;
   border-radius: 5px;
   margin-bottom: 1rem;
 }
@@ -62,4 +62,8 @@
   --nc-bg-2: var(--danger-background);
   --nc-bg-3: var(--danger-text);
   color: var(--danger-text);
+}
+
+.admonition a {
+  color: inherit;
 }
