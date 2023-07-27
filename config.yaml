@@ -64,7 +64,7 @@ params:
 
   socialIcons:
     - name: Email
-      url: "mailto:ga-blog@augendre.info"
+      url: "mailto:ga-notes@augendre.info"
     - name: Mastodon
       url: "https://fosstodon.org/@Crocmagnon"
     - name: GitHub
