@@ -85,6 +85,8 @@ docker compose logs -ft
 rm -rf db_data_OLD
 ```
 
+If your database is not in a container, then [`pg_upgrade`](https://www.postgresql.org/docs/current/pgupgrade.html) may be a better option: faster, less hassle and doesn't require manually dumping and restoring.
+
 {{<unsafe>}}
 <small>
 Postgres, PostgreSQL and the Slonik Logo are trademarks or registered trademarks of the PostgreSQL Community Association of Canada, and used with their permission.
