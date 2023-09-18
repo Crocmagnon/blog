@@ -23,7 +23,7 @@ params:
   images: ["img/portrait.jpg"]
   DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light
-  disableThemeToggle: false
+  disableThemeToggle: true
 
   ShowReadingTime: true
   ShowShareButtons: false
