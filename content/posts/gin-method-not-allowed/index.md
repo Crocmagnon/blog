@@ -24,7 +24,7 @@ TL;DR: by default `gin` returns a 404 for an incorrect HTTP verb sent to a handl
 ## 📖 Context
 At OVHcloud, we use [`gin-gonic/gin`](https://github.com/gin-gonic/gin) as the go-to HTTP web framework for our internal services.
 
-The default behavior when receiving a request for a path that's handled but with an incorrect HTTP verb is to reply with `404 Not Found`. 
+The default behavior when receiving a request for a path that's handled but with an incorrect HTTP verb is to reply with `404 Not Found`.
 That's confusing because this status code is more often used when a path is not handled at all.
 
 {{< highlight go "linenos=inline" >}}
