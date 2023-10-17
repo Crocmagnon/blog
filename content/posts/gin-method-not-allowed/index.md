@@ -5,8 +5,8 @@ draft: false
 tags: ["go", "gin", "golang", "http", "ovh", "ovhcloud"]
 
 # Keep them short
-description: "By default `gin` returns a 404 for an incorrect HTTP verb sent to a handled path. This can be fixed."
-summary: "By default `gin` returns a 404 for an incorrect HTTP verb sent to a handled path. This can be fixed."
+description: ""
+summary: "By default gin returns a 404 for an incorrect HTTP verb sent to a handled path. This can be fixed."
 
 cover:
   image: "gin.jpg"
@@ -19,7 +19,7 @@ cover:
 # TocOpen: false
 ---
 
-TL;DR: by default `gin` returns a 404 for an incorrect HTTP verb sent to a handled path. Double-check the method you're using.
+TL;DR: by default `gin` returns a 404 for an incorrect HTTP verb sent to a handled path. This can be fixed. Double-check the method you're using.
 
 ## 📖 Context
 At OVHcloud, we use [`gin-gonic/gin`](https://github.com/gin-gonic/gin) as the go-to HTTP web framework for our internal services.
