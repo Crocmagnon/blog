@@ -1,7 +1,18 @@
 ---
 title: "My subscriptions"
 date: 2023-11-04T18:23:20+04:00
+draft: false
+tags: ["subscriptions", "subscription", "personal finances", "budget"]
+
+# Keep them short
 summary: "What are my monthly subscriptions and how much they cost?"
+
+cover:
+  image: "panda.jpg"
+  relative: true
+  alt: "Panda eating bamboo"
+  caption: "Panda eating bamboo (from Sid Balachandran on Unsplash)"
+  hidden: false  # applies only on single view
 ---
 
 I just finished reading [Kev's article](https://kevquirk.com/on-subscriptions) on the subject, and wanted to share my thoughts on the subject.
